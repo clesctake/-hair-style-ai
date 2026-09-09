@@ -52,7 +52,7 @@ ${userRequest}
     );
 
     form.append("quality", "medium");
-    form.append("input_fidelity", "high");
+    
 
     const response = await fetch(
       "https://api.openai.com/v1/images/edits",
