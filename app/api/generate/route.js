@@ -11,9 +11,10 @@ export async function POST(request) {
 
     const incoming = await request.formData();
     const image = incoming.get("image");
+    const referenceImage = incoming.get("referenceImage");
     const userRequest = incoming.get("request");
 
-    if (!image || !userRequest) {
+    if (!image || !referenceImage || !userRequest) {
       return Response.json(
         { error: "写真と希望するスタイルを入力してください。" },
         { status: 400 }
@@ -23,9 +24,8 @@ export async function POST(request) {
     const form = new FormData();
 
     form.append("model", "gpt-image-2");
-    form.append("image", image, image.name || "hair.jpg");
-
-    form.append(
+    form.append("image[]", image, image.name || "hair.jpg");
+    form.append("image[]", referenceImage, referenceImage.name || "reference.jpg");
       "prompt",
       `
 これは美容室で使用するヘアスタイル・ヘアカラーの
