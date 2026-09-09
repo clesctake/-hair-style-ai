@@ -5,6 +5,8 @@ import { useState } from "react";
 export default function Home() {
   const [image, setImage] = useState(null);
   const [preview, setPreview] = useState(null);
+  const [referenceImage, setReferenceImage] = useState(null);
+const [referencePreview, setReferencePreview] = useState(null);
   const [request, setRequest] = useState("");
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -59,8 +61,57 @@ export default function Home() {
     setError("画像の変換に失敗しました。");
   }
 }
+  async function handleReferenceImage(e) {
+  const file = e.target.files?.[0];
+  if (!file) return;
+
+  try {
+    const url = URL.createObjectURL(file);
+    const img = new Image();
+
+    img.onload = () => {
+      const canvas = document.createElement("canvas");
+      canvas.width = img.naturalWidth;
+      canvas.height = img.naturalHeight;
+
+      const ctx = canvas.getContext("2d");
+      ctx.drawImage(img, 0, 0);
+
+      canvas.toBlob(
+        (blob) => {
+          URL.revokeObjectURL(url);
+
+          if (!blob) {
+            setError("イメージ画像の変換に失敗しました。");
+            return;
+          }
+
+          const jpegFile = new File([blob], "reference.jpg", {
+            type: "image/jpeg",
+          });
+
+          setReferenceImage(jpegFile);
+          setReferencePreview(URL.createObjectURL(jpegFile));
+          setResult(null);
+          setError("");
+        },
+        "image/jpeg",
+        0.92
+      );
+    };
+
+    img.onerror = () => {
+      URL.revokeObjectURL(url);
+      setError("イメージ画像を読み込めませんでした。");
+    };
+
+    img.src = url;
+  } catch {
+    setError("イメージ画像の変換に失敗しました。");
+  }
+}
   async function generate() {
-    if (!image || !request.trim()) {
+    if (!image || !referenceImage || !request.trim()) { {
       setError("写真と、なりたい髪型・髪色を入力してください。");
       return;
     }
@@ -70,6 +121,7 @@ export default function Home() {
 
     const formData = new FormData();
     formData.append("image", image);
+    formData.append("referenceImage", referenceImage);
     formData.append("request", request);
 
     try {
@@ -127,8 +179,30 @@ export default function Home() {
           />
         </label>
 
-        <div className="step">
-          <span>2</span>
+       <div className="step">
+  <span>2</span>
+  <h2>なりたいイメージ写真</h2>
+</div>
+
+<label className="upload">
+  {referencePreview ? (
+    <img src={referencePreview} alt="Reference" />
+  ) : (
+    <>
+      <strong>イメージ写真を選択</strong>
+      <small>なりたい髪型・髪色の参考写真</small>
+    </>
+  )}
+
+  <input
+    type="file"
+    accept="image/*"
+    onChange={handleReferenceImage}
+    hidden
+  />
+</label>
+      <div className="step">
+          <span>3</span>
           <h2>なりたいスタイル</h2>
         </div>
 
@@ -139,7 +213,7 @@ export default function Home() {
         />
 
         <div className="step">
-          <span>3</span>
+          <span>4</span>
           <h2>AIでシミュレーション</h2>
         </div>
 
