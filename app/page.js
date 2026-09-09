@@ -10,16 +10,55 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  function handleImage(e) {
-    const file = e.target.files?.[0];
-    if (!file) return;
+  async function handleImage(e) {
+  const file = e.target.files?.[0];
+  if (!file) return;
 
-    setImage(file);
-    setPreview(URL.createObjectURL(file));
-    setResult(null);
-    setError("");
+  try {
+    const url = URL.createObjectURL(file);
+    const img = new Image();
+
+    img.onload = () => {
+      const canvas = document.createElement("canvas");
+      canvas.width = img.naturalWidth;
+      canvas.height = img.naturalHeight;
+
+      const ctx = canvas.getContext("2d");
+      ctx.drawImage(img, 0, 0);
+
+      canvas.toBlob(
+        (blob) => {
+          URL.revokeObjectURL(url);
+
+          if (!blob) {
+            setError("画像の変換に失敗しました。");
+            return;
+          }
+
+          const jpegFile = new File([blob], "hair.jpg", {
+            type: "image/jpeg",
+          });
+
+          setImage(jpegFile);
+          setPreview(URL.createObjectURL(jpegFile));
+          setResult(null);
+          setError("");
+        },
+        "image/jpeg",
+        0.92
+      );
+    };
+
+    img.onerror = () => {
+      URL.revokeObjectURL(url);
+      setError("この画像を読み込めませんでした。別の写真を選んでください。");
+    };
+
+    img.src = url;
+  } catch {
+    setError("画像の変換に失敗しました。");
   }
-
+}
   async function generate() {
     if (!image || !request.trim()) {
       setError("写真と、なりたい髪型・髪色を入力してください。");
