@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f7f7f5;
+  color: #171717;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial,
+    sans-serif;
+}
+
+.container {
+  width: min(100% - 32px, 900px);
+  margin: 0 auto;
+  padding: 50px 0 80px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #777;
+}
+
+h1 {
+  font-size: clamp(34px, 8vw, 60px);
+  margin: 10px 0;
+  letter-spacing: -2px;
+}
+
+.description {
+  max-width: 550px;
+  margin: 0 auto;
+  color: #666;
+  line-height: 1.8;
+}
+
+.card,
+.result {
+  background: white;
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 25px 0 15px;
+}
+
+.step:first-child {
+  margin-top: 0;
+}
+
+.step span {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #111;
+  color: white;
+  font-size: 14px;
+}
+
+.step h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.upload {
+  min-height: 280px;
+  border: 2px dashed #ddd;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.upload img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.upload strong {
+  font-size: 18px;
+}
+
+.upload small {
+  color: #888;
+  margin-top: 8px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 130px;
+  resize: vertical;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 16px;
+  font: inherit;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  border: 0;
+  border-radius: 16px;
+  padding: 18px;
+  background: #111;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.error {
+  color: #c62828;
+  margin-top: 15px;
+}
+
+.result {
+  margin-top: 25px;
+}
+
+.comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.comparison img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.comparison p {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.result a {
+  display: block;
+  margin-top: 20px;
+  padding: 16px;
+  text-align: center;
+  border-radius: 16px;
+  background: #111;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: min(100% - 20px, 900px);
+    padding-top: 30px;
+  }
+
+  .card,
+  .result {
+    padding: 18px;
+    border-radius: 20px;
+  }
+
+  .comparison {
+    grid-template-columns: 1fr;
+  }
+}
