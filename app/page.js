@@ -109,7 +109,7 @@ const [referencePreview, setReferencePreview] = useState(null);
   } catch {
     setError("イメージ画像の変換に失敗しました。");
   }
-}
+  }
   async function generate() {
     if (!image || !referenceImage || !request.trim()) { {
       setError("写真と、なりたい髪型・髪色を入力してください。");
