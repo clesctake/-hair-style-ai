@@ -25,31 +25,7 @@ export async function POST(request) {
 
     form.append("model", "gpt-image-2");
     form.append("image[]", image, image.name || "hair.jpg");
-    form.append("image[]", referenceImage, referenceImage.name || "reference.jpg");
-      "prompt",
-      `
-これは美容室で使用するヘアスタイル・ヘアカラーの
-リアルな仕上がりシミュレーションです。
-
-【お客様の希望】
-${userRequest}
-
-添付された人物写真を編集してください。
-
-重要な条件：
-- 同一人物として自然に維持する
-- 顔の形、目、鼻、口、肌、表情をできる限り変更しない
-- 年齢や人物の特徴を変更しない
-- ポーズと撮影アングルを維持する
-- 背景をできる限り維持する
-- 主に髪だけを編集する
-- 指定された髪型、長さ、レイヤー、前髪、髪色を反映する
-- 毛流れ、毛先、ツヤ、陰影を写真として自然にする
-- ウィッグのような不自然な質感にしない
-- 実際に美容室で施術した後の写真のような仕上がりにする
-- 過度な美肌加工や顔の加工をしない
-    `.trim()
-);
+    form.append("prompt", `Use the first image as the person to edit. Use the second image only as the hairstyle and hair-color reference. Preserve the first image's identity, face, skin tone, pose, clothing, body, camera angle, lighting and background. Change only the hair. User request: ${userRequest}. Create a realistic professional salon-quality result.`);
 
     form.append("quality", "medium");
     
