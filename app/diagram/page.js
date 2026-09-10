@@ -3,6 +3,9 @@
 import { useState } from "react";
 
 export default function DiagramPage() {
+const [loading, setLoading] = useState(false);
+const [result, setResult] = useState(null);
+const [error, setError] = useState("");
   const [currentImage, setCurrentImage] = useState(null);
   const [goalImage, setGoalImage] = useState(null);
 
@@ -16,7 +19,42 @@ export default function DiagramPage() {
     setCurrentImage(file);
     setCurrentPreview(URL.createObjectURL(file));
   }
+  async function analyzeStyle() {
+    if (!currentImage || !goalImage) return;
 
+    setLoading(true);
+    setError("");
+    setResult(null);
+
+    try {
+      const formData = new FormData();
+
+      formData.append("image", currentImage);
+      formData.append("referenceImage", goalImage);
+
+      formData.append(
+        "request",
+        "1枚目の人物の顔・表情・顔立ち・肌・背景・服装はできるだけ維持してください。2枚目のヘアスタイルを参考に、1枚目の人物がその髪型になった完成イメージを生成してください。特に前髪、顔まわり、アウトライン、レイヤー、長さ、ボリューム位置を参考画像に近づけてください。"
+      );
+
+      const response = await fetch("/api/generate", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || "画像生成に失敗しました");
+      }
+
+      setResult(data.image);
+    } catch (err) {
+      setError(err.message || "エラーが発生しました");
+    } finally {
+      setLoading(false);
+    }
+  }
   function selectGoalImage(e) {
     const file = e.target.files?.[0];
     if (!file) return;
@@ -114,8 +152,9 @@ export default function DiagramPage() {
         </section>
       </div>
 
-      <button
-        disabled={!currentImage || !goalImage}
+        <button
+  onClick={analyzeStyle}
+  disabled={!currentImage || !goalImage || loading}
         style={{
           width: "100%",
           marginTop: "25px",
@@ -129,7 +168,7 @@ export default function DiagramPage() {
           color: "#fff",
         }}
       >
-        AIでスタイルを分析
+        {loading ? "AI分析・イメージ生成中..." : "AIでスタイルを分析"}
       </button>
 
       <section
@@ -144,18 +183,46 @@ export default function DiagramPage() {
         <p>
           顔の形と現在の髪を分析し、なりたいスタイルをベースに似合わせイメージを提案します。
         </p>
+{error && (
+  <p style={{ color: "red", marginTop: "15px" }}>
+    {error}
+  </p>
+)}
 
-        <div
-          style={{
-            padding: "40px 20px",
-            marginTop: "15px",
-            textAlign: "center",
-            background: "#f6f6f6",
-            borderRadius: "16px",
-          }}
-        >
-          ここに完成イメージと顔まわりの別提案を表示
-        </div>
+{result ? (
+  <div style={{ marginTop: "20px" }}>
+    <img
+      src={result}
+      alt="AI完成イメージ"
+      style={{
+        width: "100%",
+        borderRadius: "16px",
+      }}
+    />
+
+    <p
+      style={{
+        marginTop: "10px",
+        textAlign: "center",
+        fontWeight: "bold",
+      }}
+    >
+      なりたいスタイル
+    </p>
+  </div>
+) : (
+  <div
+    style={{
+      padding: "40px 20px",
+      marginTop: "15px",
+      textAlign: "center",
+      background: "#f6f6f6",
+      borderRadius: "16px",
+    }}
+  >
+    ここに完成イメージを表示
+  </div>
+)}
       </section>
 
       <section
