@@ -25,7 +25,31 @@ export async function POST(request) {
 
     form.append("model", "gpt-image-2");
     form.append("image[]", image, image.name || "hair.jpg");
-    form.append("prompt", `Use the first image as the person to edit. Use the second image only as the hairstyle and hair-color reference. Preserve the first image's identity, face, skin tone, pose, clothing, body, camera angle, lighting and background. Change only the hair. User request: ${userRequest}. Create a realistic professional salon-quality result.`);
+    form.append("image[]", referenceImage, referenceImage.name || "reference.jpg");
+    form.append(
+  "prompt",
+  `The first image is the CURRENT PERSON to edit.
+The second image is the TARGET HAIRSTYLE REFERENCE.
+
+Keep the identity, face, facial features, skin, expression, pose, clothing and background of the FIRST image.
+
+DO NOT preserve the current hairstyle from the first image.
+Replace the hairstyle clearly.
+
+Use the SECOND image only as the hairstyle design reference.
+Transfer its haircut characteristics to the person in the first image, including:
+bangs, face-framing shape, overall length, outline, layers, weight placement, volume, silhouette and ends.
+
+Do not copy the face or identity of the second person.
+
+Preserve the first person's hair color as much as possible unless the user's request explicitly asks for a color change.
+
+The final result must look like a realistic photograph of the FIRST person after actually receiving the TARGET haircut.
+
+User request:
+${userRequest}`
+);
+    orm.append("prompt", `Use the first image as the person to edit. Use the second image only as the hairstyle and hair-color reference. Preserve the first image's identity, face, skin tone, pose, clothing, body, camera angle, lighting and background. Change only the hair. User request: ${userRequest}. Create a realistic professional salon-quality result.`);
 
     form.append("quality", "medium");
     
