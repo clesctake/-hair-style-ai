@@ -3,24 +3,26 @@
 import { useState } from "react";
 
 export default function DiagramPage() {
-  const [angle, setAngle] = useState(90);
+  const [currentImage, setCurrentImage] = useState(null);
+  const [goalImage, setGoalImage] = useState(null);
 
-  // 頭皮面を0°、頭皮に対して垂直を90°として計算
-  const rad = (angle * Math.PI) / 180;
+  const [currentPreview, setCurrentPreview] = useState(null);
+  const [goalPreview, setGoalPreview] = useState(null);
 
-  const rootX = 190;
-  const rootY = 230;
-  const panelLength = 130;
+  function selectCurrentImage(e) {
+    const file = e.target.files?.[0];
+    if (!file) return;
 
-  const endX = rootX + Math.cos(rad) * panelLength;
-  const endY = rootY - Math.sin(rad) * panelLength;
+    setCurrentImage(file);
+    setCurrentPreview(URL.createObjectURL(file));
+  }
 
-  let form = "セイムレイヤー";
+  function selectGoalImage(e) {
+    const file = e.target.files?.[0];
+    if (!file) return;
 
-  if (angle < 90) {
-    form = "グラデーション";
-  } else if (angle > 90) {
-    form = "レイヤー";
+    setGoalImage(file);
+    setGoalPreview(URL.createObjectURL(file));
   }
 
   return (
@@ -32,128 +34,149 @@ export default function DiagramPage() {
         fontFamily: "sans-serif",
       }}
     >
-      <p style={{ fontSize: "12px", letterSpacing: "2px" }}>
+      <p
+        style={{
+          fontSize: "12px",
+          letterSpacing: "2px",
+        }}
+      >
         HAIR MIRROR AI
       </p>
 
-      <h1>3D CUT DIAGRAM</h1>
+      <h1>AI CUT DESIGN</h1>
 
       <p>
-        頭皮基準の引き出し角度から、カットパネルを可視化するテストページです。
+        現在の髪と、なりたいスタイルから完成イメージとカット展開図を作成します。
       </p>
+
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+          gap: "20px",
+          marginTop: "30px",
+        }}
+      >
+        <section
+          style={{
+            border: "1px solid #ddd",
+            borderRadius: "18px",
+            padding: "20px",
+          }}
+        >
+          <h2>現在の写真</h2>
+
+          <input
+            type="file"
+            accept="image/*"
+            onChange={selectCurrentImage}
+          />
+
+          {currentPreview && (
+            <img
+              src={currentPreview}
+              alt="現在の写真"
+              style={{
+                width: "100%",
+                marginTop: "20px",
+                borderRadius: "14px",
+              }}
+            />
+          )}
+        </section>
+
+        <section
+          style={{
+            border: "1px solid #ddd",
+            borderRadius: "18px",
+            padding: "20px",
+          }}
+        >
+          <h2>なりたいスタイル</h2>
+
+          <input
+            type="file"
+            accept="image/*"
+            onChange={selectGoalImage}
+          />
+
+          {goalPreview && (
+            <img
+              src={goalPreview}
+              alt="なりたいスタイル"
+              style={{
+                width: "100%",
+                marginTop: "20px",
+                borderRadius: "14px",
+              }}
+            />
+          )}
+        </section>
+      </div>
+
+      <button
+        disabled={!currentImage || !goalImage}
+        style={{
+          width: "100%",
+          marginTop: "25px",
+          padding: "17px",
+          border: "none",
+          borderRadius: "14px",
+          fontSize: "16px",
+          fontWeight: "bold",
+          background:
+            currentImage && goalImage ? "#111" : "#ccc",
+          color: "#fff",
+        }}
+      >
+        AIでスタイルを分析
+      </button>
 
       <section
         style={{
-          marginTop: "30px",
-          padding: "20px",
-          border: "1px solid #ddd",
-          borderRadius: "18px",
+          marginTop: "40px",
+          paddingTop: "30px",
+          borderTop: "1px solid #ddd",
         }}
       >
-        <h2>引き出し角度：{angle}°</h2>
+        <h2>AI STYLE PROPOSAL</h2>
 
         <p>
-          FORM：<strong>{form}</strong>
+          顔の形と現在の髪を分析し、なりたいスタイルをベースに似合わせイメージを提案します。
         </p>
 
-        <input
-          type="range"
-          min="0"
-          max="150"
-          value={angle}
-          onChange={(e) => setAngle(Number(e.target.value))}
-          style={{ width: "100%" }}
-        />
-
-        <div style={{ marginTop: "25px" }}>
-          <svg
-            viewBox="0 0 400 330"
-            style={{
-              width: "100%",
-              background: "#f7f7f7",
-              borderRadius: "14px",
-            }}
-          >
-            {/* 頭部 */}
-            <ellipse
-              cx="150"
-              cy="190"
-              rx="85"
-              ry="110"
-              fill="#ead8cc"
-              stroke="#333"
-              strokeWidth="3"
-            />
-
-            {/* 頭皮基準線 */}
-            <line
-              x1={rootX - 80}
-              y1={rootY}
-              x2={rootX + 80}
-              y2={rootY}
-              stroke="#888"
-              strokeWidth="3"
-              strokeDasharray="8 6"
-            />
-
-            {/* 引き出しパネル */}
-            <line
-              x1={rootX}
-              y1={rootY}
-              x2={endX}
-              y2={endY}
-              stroke="#1976d2"
-              strokeWidth="18"
-              strokeLinecap="round"
-              opacity="0.65"
-            />
-
-            {/* 根元 */}
-            <circle cx={rootX} cy={rootY} r="7" fill="#111" />
-
-            {/* 90度基準 */}
-            <line
-              x1={rootX}
-              y1={rootY}
-              x2={rootX}
-              y2={rootY - 130}
-              stroke="#22a06b"
-              strokeWidth="3"
-              strokeDasharray="6 6"
-            />
-
-            <text x="205" y="255" fontSize="14">
-              頭皮面 0°
-            </text>
-
-            <text x="200" y="95" fontSize="14">
-              90°
-            </text>
-
-            <text
-              x={endX + 8}
-              y={endY}
-              fontSize="16"
-              fontWeight="bold"
-            >
-              {angle}°
-            </text>
-          </svg>
+        <div
+          style={{
+            padding: "40px 20px",
+            marginTop: "15px",
+            textAlign: "center",
+            background: "#f6f6f6",
+            borderRadius: "16px",
+          }}
+        >
+          ここに完成イメージと顔まわりの別提案を表示
         </div>
+      </section>
 
-        <div style={{ marginTop: "20px", lineHeight: "1.8" }}>
-          <strong>現在の判定</strong>
+      <section
+        style={{
+          marginTop: "40px",
+          paddingTop: "30px",
+          borderTop: "1px solid #ddd",
+        }}
+      >
+        <h2>CUT DIAGRAM</h2>
 
-          <p>
-            {angle < 90 &&
-              "90°未満：グラデーション。自然落下時にパネル上面が長く、下面が短くなる。"}
-
-            {angle === 90 &&
-              "90°：セイムレイヤー。頭皮に対して垂直に引き出す。"}
-
-            {angle > 90 &&
-              "90°超：レイヤー。自然落下時にパネル上面が短く、下面が長くなる。"}
-          </p>
+        <div
+          style={{
+            padding: "50px 20px",
+            marginTop: "15px",
+            textAlign: "center",
+            background: "#f6f6f6",
+            borderRadius: "16px",
+          }}
+        >
+          選択した完成スタイルのカット展開図をここに表示
         </div>
       </section>
     </main>
