@@ -1,0 +1,37 @@
+{
+  "changedBaselineFiles": [
+    "AGENTS.md",
+    "README.md",
+    "app/fiole/counseling.css",
+    "package-lock.json",
+    "package.json",
+    "scripts/session-foundation-ui.mjs",
+    "src/components/counseling-studio.tsx",
+    "src/components/face-design-panel.tsx",
+    "src/components/reference-home.tsx",
+    "src/lib/analysis-contract.ts",
+    "src/lib/feature-registry.ts",
+    "src/lib/journey-store.ts",
+    "src/lib/journey.ts",
+    "src/lib/session-adapter.ts",
+    "src/lib/session-model.ts",
+    "src/lib/session-validation.ts",
+    "tests/session-foundation.test.mjs",
+    "tsconfig.tsbuildinfo"
+  ],
+  "missingBaselineFiles": [],
+  "protected": {
+    "app/api/generate/route.js": true,
+    "src/lib/hair-image-client.ts": true,
+    "src/lib/generation-contract.ts": true,
+    "src/data/fiole_catalog.json": true,
+    "src/data/journey_sample_assets.json": true,
+    "src/data/ui_reference_asset.json": true,
+    "src/data/web_research.json": true,
+    "src/lib/bang-design.ts": true,
+    "src/lib/face-measurements.ts": true,
+    "src/lib/base-making.ts": true,
+    "src/lib/target-adjustment.ts": true,
+    "docs/PHASE_1_IMPLEMENTATION_REPORT.md": true
+  }
+}

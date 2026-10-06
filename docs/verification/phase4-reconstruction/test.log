@@ -1,0 +1,222 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> hair-style-ai-mvp@0.1.0 test
+> node --experimental-strip-types --test tests/*.test.mjs
+
+(node:25) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/src/lib/catalog.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ required base and lift route remain unknown, finish level does not invent a bleach threshold or an actual Lab (11.829496ms)
+✔ natural melanin, artificial residue, AI observations and stylist corrections are distinct per zone and affect planning contexts (2.213013ms)
+✔ pre lift and on color actual results retain independent evidence and survive revisions without changing previous results (54.815101ms)
+✔ provenance and numeric bounds are enforced, unknown is never silently converted into a measured pass (0.362905ms)
+(node:26) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/src/lib/capture-quality.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ exposure clipping and backlight are detected independently and prioritized without duplicate warnings (35.895407ms)
+✔ blur proxy distinguishes textured sharp detail from smooth blurred gradients; motion is a temporal proxy (28.981915ms)
+✔ position is a foreground proxy, manual alignment is separate, and future checks never silently pass (24.692533ms)
+✔ four-direction records retain original bytes, per-check results and stylist overrides; legacy records stay readable (75.343285ms)
+(node:27) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/src/lib/catalog.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ effective face values prefer current stylist correction and leave the AI raw measurements unchanged (43.582322ms)
+✔ clearing a face correction preserves unknown instead of reviving the AI value (29.954135ms)
+✔ no analysis or fixed MOCK proportions cannot generate official A-E (14.593987ms)
+✔ real analysis IDs and actual effective values pass into an immutable five-direction DesignPlan (33.50018ms)
+✔ A-E differ when the person proportions differ; labels do not always select the same fixed goals (54.49874ms)
+✔ every basedOnMetrics key is traced to the exact observation and rule that used it (20.51885ms)
+✔ stylist corrected proportions are explicitly referenced in rationale and source IDs (26.775461ms)
+✔ unknown hairline/skull/forehead stay null in planning and never appear as measured design evidence (25.918714ms)
+✔ missing optional values reduce coverage and are listed, not filled with guessed face values (13.2976ms)
+✔ valuesWereUsed cannot claim a NULL or MOCK observation or an unused metric (32.572717ms)
+✔ confirmed hair context changes the designs while unknown context remains NULL (106.139338ms)
+✔ unrecognized current hairstyle categories are rejected, not silently interpreted as known context (33.422893ms)
+✔ hair condition from a confirmed stylist value can affect density without guessing damage (22.500161ms)
+✔ structured STYLE layer/volume constrain A-E while the image shape stays explicitly unparsed (22.523716ms)
+✔ changing only COLOR cannot mix colour into shape planning or invalidate the planning run (34.69867ms)
+✔ stylist edits and adoption preserve the AI proposal and persist as separate records (77.861892ms)
+✔ changing the selected design appends selections without deleting other AI proposals (64.593345ms)
+✔ regenerating the same inputs clears the active selection and retains the previous selected design in history (26.37524ms)
+✔ new face correction invalidates old proposals/selection but preserves their history (39.184362ms)
+✔ STYLE or current hair changes invalidate active planning; edits cannot adopt stale children (25.496951ms)
+✔ MAIN/child generation preparation carries the chosen corrected shape and independent adjusted COLOR (38.852108ms)
+✔ a stale native variant cannot reach the prepared generation contract (21.735783ms)
+✔ prepared child uses saved correction without editing the raw proposal or conflating selected value (46.868356ms)
+✔ history protection rejects mutation/deletion of AI planning, corrections and selections (62.601724ms)
+✔ v1.0 sessions load without destructive version upgrade, new saves/Phase3 data use v1.1 (22.639831ms)
+✔ Phase3 mutations stamp the current feature registry/version/time without changing old read-only session metadata (10.955773ms)
+✔ registry distinguishes measured connection, estimate parameters, legacy MOCK and future unimplemented modules (0.127011ms)
+(node:33) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/src/lib/catalog.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ face data declares fixed MOCK numbers, unknown landmarks and no image measurement; side inputs and quality remain attributable (8.700907ms)
+✔ five design proposals retain their originals while draft and stylist final decisions are stored separately and append only (44.739795ms)
+✔ STYLE shape, face decisions and COLOR targets are independent; only colour changes invalidate FIOLE recipes (7.709348ms)
+✔ STYLE-only and COLOR-only preserve the other axis and can save a style consultation without a mock hair diagnosis (3.120456ms)
+(node:39) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/src/lib/hair-images.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ API reports missing configuration truthfully without generating or exposing a key (7.01793ms)
+✔ API sends two photos once, preserves identity and rejects invalid inputs before billing (18.394895ms)
+✔ API handles provider denial, missing output and timeout without returning secrets or mock success (5.394001ms)
+✔ generated image context follows real image inputs and remains separate from diagnosis and After (63.610929ms)
+✔ client sends separate STYLE and COLOR multipart inputs and propagates server errors (11.101733ms)
+✔ separated API sends current, STYLE and COLOR in order with independent role constraints; mixed-role submissions are rejected (5.10723ms)
+✔ single-axis API preserves the other axis; original two-reference history remains valid (19.025162ms)
+(node:40) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/src/lib/hair-mask.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ all seven tone controls preserve every unselected RGBA byte, including skin and background holes (16.521942ms)
+✔ feather blends inward only and strokes can add, erase and restore the selected hair without leaks (18.949328ms)
+✔ the hand-traced demo selects hair and excludes forehead, face, neck, blouse and background at multiple resolutions (24.300073ms)
+✔ target sampling excludes nonhair pixels inside a circular patch and rejects a skin-only patch (0.495484ms)
+✔ hair-only confirmation stores the editable mask; changing or replacing it blocks recipe and image generation until reconfirmed (64.298613ms)
+(node:51) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/src/lib/journey.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ one MAIN and five distinct native DesignPlan child jobs share the session and parent design (239.35522ms)
+✔ COLOR_ONLY preserves current hairstyle and creates only MAIN, not unsolicited bangs (77.197264ms)
+✔ unconfirmed or pending COLOR cannot reach the generation pipeline (95.553481ms)
+✔ same-input bulk regeneration is blocked without erasing the previous batch (486.216733ms)
+✔ a child cannot start before MAIN is complete and its image is stored (127.640158ms)
+✔ MAIN completion stores the image, input snapshot, null seed and common projection (352.300094ms)
+✔ every child uses the saved MAIN image bytes, exact parent event, common STYLE and confirmed COLOR (3244.618566ms)
+✔ the sequential pipeline persists each result before sending its dependent child (6651.819002ms)
+✔ save failure after MAIN prevents all child requests (470.993765ms)
+✔ a child failure keeps all other images and an individual retry sends only that child (8653.592843ms)
+✔ MAIN failure sends no children and manual resume completes the remaining jobs (8721.351936ms)
+✔ retry limits are real job attempts and never silently resend (1069.745352ms)
+✔ reload recovers interrupted work as uncertain failure without creating a new request (281.549051ms)
+✔ selecting one result persists an exact image/event reference and leaves AI proposals intact (7808.804916ms)
+✔ a saved correction makes only its child stale and regenerates only that child (10473.45767ms)
+✔ changed COLOR invalidates every old result while preserving its images and snapshots (6916.733417ms)
+✔ a changed STYLE creates a fresh batch and retains the complete former generation history (8788.536148ms)
+✔ history protection rejects modified assets, events and dropped simulation records (409.552205ms)
+✔ incorrect response IDs or fake seed cannot complete a job (260.902859ms)
+✔ MOCK transport assets stay MOCK and registry generation stays PARTIAL even after success (265.765811ms)
+✔ human rejection is stored separately from API success and prevents adoption (577.611039ms)
+✔ explicit STYLE_ONLY is preserved when a native design is selected (18.612861ms)
+✔ client sends original bytes and rejects a display-only CURRENT input (161.780596ms)
+✔ API and client verify the stored MAIN parent hash rather than trusting its name (440.508192ms)
+✔ DesignPlan parameter/source mismatches and reference role contamination are rejected (447.497131ms)
+✔ prompt uses shape-only STYLE, confirmed color-only COLOR and hair-only preservation without double filtering (266.018755ms)
+✔ missing key blocks formal route without external requests and never exposes credentials (2.930641ms)
+✔ formal API orders CURRENT/MAIN/STYLE/COLOR correctly, returns traced MOCK metadata and no synthetic seed (434.211209ms)
+✔ same request and input deduplicate in-process; changing that request input is rejected (168.657302ms)
+✔ provider failure is sanitized and uncertain network failures remain recorded as uncertain (173.304838ms)
+✔ client response hash and parent/request IDs are checked before persistence (230.132818ms)
+✔ DiagnosisSession revisions preserve legacy generation history and unknown chemistry values (7282.719058ms)
+✔ persisted child common STYLE/COLOR and label contamination are rejected (125.910746ms)
+✔ asset origin or hash cannot disagree with its completion metadata (370.978126ms)
+✔ an event cannot silently substitute a different CURRENT snapshot (315.879763ms)
+(node:81) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/src/lib/domain.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ browser records retain original observations, reject stale saves and survive reload (2.522157ms)
+✔ storage failures do not report successful persistence (0.172719ms)
+✔ image generation sends two images and one identity-preserving prompt (13.928047ms)
+(node:82) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/src/lib/catalog.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ sample consultation saves AI, stylist, goal and trial without manufacturing a real After or outcome (34.43929ms)
+✔ pre-generated finish cannot be attributed to another photo, goal, diagnosis or recipe (3.100326ms)
+(node:94) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/src/lib/journey.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ new simulation revisions roundtrip exactly through gzip, including original images and analysis (368.806899ms)
+✔ old raw revisions are read without rewriting or migration (55.998759ms)
+✔ unsupported compression takes the reversible raw fallback (191.829772ms)
+✔ corrupt gzip is rejected while the stored bytes stay intact (169.204979ms)
+✔ decompressed bytes must match the stored SHA-256 and declared length (183.020227ms)
+✔ future codecs and schema versions are rejected without discarding the source (148.176048ms)
+✔ revision and session ID mismatches are rejected instead of overwriting other records (169.381574ms)
+✔ decompression size limits protect the original compressed record (150.002502ms)
+(node:96) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/src/lib/catalog.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ AI values remain original and corrections stay scoped to region and analysis (4.293779ms)
+✔ CIELAB difference uses same basis; hue takes shortest angle and achromatic hue is unknown (0.41989ms)
+✔ candidate recipes use verified variants and actual diagram vectors; ratios stay labelled as trial (9.840148ms)
+✔ whole case saves photos, goals, AI, corrections, trial and actual separately; saved diagnosis is append only (38.555603ms)
+(node:112) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/src/lib/catalog.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ REAL input resolves four originals independently of display pixels and carries directions/source/quality (11.907883ms)
+✔ missing original stays missing: no preview-as-original fallback (8.434812ms)
+✔ binary mask round trip and malformed/oversized runs are rejected (4.089712ms)
+✔ provider confidence resampling produces image-specific mask; no fixed template (0.314493ms)
+✔ hair colour sampling excludes face/background, keeps ROOT/MID/END, leaves unavailable chemistry null (10.217976ms)
+✔ no hair or clipped-only colour returns null rather than a fabricated colour (2.825863ms)
+✔ face ratios correct for pixel aspect ratio; no guessed hairline/forehead/skull values (1.555596ms)
+✔ multiple faces reject a combined face mesh without losing hair analysis (10.487349ms)
+✔ segmented exposure/clipping/backlight are pixel based; no fabricated single-photo motion or lighting colour (16.902684ms)
+✔ served model/SDK assets match the audited manifest and both execution paths use the telemetry-disabled bundle (96.890834ms)
+✔ committed real-analysis values persist as AI_ESTIMATE, original and stylist corrections stay separate (95.525309ms)
+✔ unsupported observations cannot be smuggled into real photo AI originals (20.304864ms)
+✔ replacing a current photo invalidates active results but preserves prior masks/estimates (14.226676ms)
+✔ outdated/duplicate analysis commit and edits to stored AI run are rejected (13.113553ms)
+✔ analysis input and model failures never silently fall back to MOCK numbers (5.629874ms)
+✔ STYLE/COLOR and downstream generated/proposed data are unchanged by real-analysis commit (7.592873ms)
+✔ stylist clear-to-unknown is appended and does not fabricate AI values (14.653907ms)
+✔ face stylist corrections/clear are independent of AI raw landmarks and ratios (14.647387ms)
+✔ analysed original bytes remain resolvable after a direction changes before first save (8.028537ms)
+✔ an empty hair mask keeps quality score unknown; unassessed items do not imply GOOD (1.380603ms)
+(node:121) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/src/lib/catalog.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ session creation links every module, reserves MAIN/A-E/length children and leaves unknown calculations null (3.805475ms)
+✔ ROOT/MID/END and AI estimate/stylist correction survive storage without overwriting the fixed MOCK originals (34.59255ms)
+✔ native bone correction and future fields persist through both store interfaces and legacy re-save (56.138287ms)
+✔ STYLE and COLOR retain distinct image roles; changing STYLE cannot change target or recipe inputs (6.973834ms)
+✔ confirmed hair-only COLOR maps original, adjusted controls, Lab/display and preview with manual provenance, not AI inference (36.644382ms)
+✔ MAIN, A-E and length variants have validated parent relations; placeholder image counts never mean generated (5.701692ms)
+✔ feature registry exposes exact five states separately from trust and reports the unfinished engines truthfully (0.190326ms)
+✔ source validation keeps zero and unknown distinct and rejects fabricated AI provenance for MOCK (9.698375ms)
+✔ old records adapt without edits to original photos, original schema, diagnosis, FIOLE proposals or extra legacy fields (9.837263ms)
+✔ legacy side and missing capture metadata remain unknown instead of inventing RIGHT/LIBRARY/GOOD (2.215477ms)
+✔ future common schema and foreign session IDs are refused without resetting or mutating records (5.787261ms)
+✔ native and legacy stale saves and edits to saved analysis originals are rejected on the same revision chain (48.7491ms)
+✔ proposed recipe and actual treatment are independent; unconfirmed proposal copies are not empirical (10.517805ms)
+✔ PRE-LIFT/ON COLOR actual stages and predicted colour remain separated per zone (7.306904ms)
+✔ history enums separate dark/black/lightener and preserve ambiguous legacy history without guesses (1.353203ms)
+✔ generation contract carries person/shape/colour/analysis/plan by role and child-parent ID without invoking an API (2.678773ms)
+✔ STYLE-only sessions retain current colour; COLOR-only sessions exclude STYLE from the future generation contract (1.761706ms)
+✔ legacy single generated images remain standalone, never mislabeled as MAIN or a generated A-E child (6.863648ms)
+✔ manual base correction appends A-B-A and clear-to-unknown decisions without changing originals (22.778578ms)
+✔ current-analysis input carries photo quality/history but never claims to analyze or uses a preview as original (2.092652ms)
+✔ recalculating recipe candidates preserves the original proposal linked to actual treatment (3.012594ms)
+✔ native STYLE fields reach the future generation contract after re-save without changing COLOR (13.741287ms)
+✔ reading preserves saved app/registry metadata; only a new saved revision stamps current capabilities (7.92422ms)
+(node:127) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/src/lib/catalog.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/1bd9f00e9a35/phase4-reconstruction/hair-style-ai/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ sRGB conversion has standard reference values and returns display RGB within one byte (1.055786ms)
+✔ neutral preview preserves original bytes; controls really change pixels and preserve alpha (0.893331ms)
+✔ manual patch sampling excludes the unrelated background and rejects transparent samples (0.655915ms)
+✔ confirmation keeps original, adjusted preview, UI values, normalized values and uncali­brated target separate (13.587525ms)
+✔ recipe context uses confirmed target and rejects later drafts; candidates stay in the existing library (2.446715ms)
+✔ saved adjustment confirmations survive reload and remain append only across reconfirmation (34.01292ms)
+✔ invalid control ranges, unselected patch and mismatched normalization are rejected (3.593697ms)
+ℹ tests 153
+ℹ suites 0
+ℹ pass 153
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 76837.7953

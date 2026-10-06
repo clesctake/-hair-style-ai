@@ -1,0 +1,24 @@
+{
+  "baselineFiles": 203,
+  "removed": [],
+  "changed": [
+    "AGENTS.md",
+    "README.md",
+    "app/globals.css",
+    "scripts/session-foundation-ui.mjs",
+    "tests/session-foundation.test.mjs",
+    "src/components/reference-home.tsx",
+    "src/components/hair-image-panel.tsx",
+    "src/components/style-reference-editor.tsx",
+    "src/components/counseling-studio.tsx",
+    "src/lib/session-adapter.ts",
+    "src/lib/session-validation.ts",
+    "src/lib/session-model.ts",
+    "src/lib/photo-analysis-pipeline.ts",
+    "src/lib/analysis-contract.ts",
+    "src/lib/generation-contract.ts",
+    "src/lib/journey-store.ts",
+    "src/lib/feature-registry.ts"
+  ],
+  "protectedApiFioleModelsLegacyAndMasterUnchanged": true
+}

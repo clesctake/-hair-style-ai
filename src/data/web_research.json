@@ -1,0 +1,3957 @@
+{
+  "schema_version": "2.0",
+  "research_date": "2026-10-01",
+  "scope": "FIOLE公式3商品ページ・3PDF・2026参考事例・ニュース・利用条件、ICC/CIE/Google一次資料。全Web資料・全現行SKUの網羅は未主張。",
+  "sources": [
+    {
+      "id": "W_BL",
+      "title": "BL商品ページ",
+      "url": "https://www.fiole.jp/products/f_bl.html",
+      "kind": "official_web",
+      "edition": null,
+      "accessed_on": "2026-10-01",
+      "publication_date": null,
+      "sha256": null,
+      "locator_policy": "PDF物理ページ／Webセクション",
+      "rights": "参照URLと抽出事実のみ。サイト写真・Web PDFの再配布なし"
+    },
+    {
+      "id": "W_Q",
+      "title": "QUALUCIA商品ページ",
+      "url": "https://www.fiole.jp/products/qualucia.html",
+      "kind": "official_web",
+      "edition": null,
+      "accessed_on": "2026-10-01",
+      "publication_date": null,
+      "sha256": null,
+      "locator_policy": "PDF物理ページ／Webセクション",
+      "rights": "参照URLと抽出事実のみ。サイト写真・Web PDFの再配布なし"
+    },
+    {
+      "id": "W_CREAM",
+      "title": "クリームOX商品ページ",
+      "url": "https://www.fiole.jp/products/cream-ox.html",
+      "kind": "official_web",
+      "edition": null,
+      "accessed_on": "2026-10-01",
+      "publication_date": null,
+      "sha256": null,
+      "locator_policy": "PDF物理ページ／Webセクション",
+      "rights": "参照URLと抽出事実のみ。サイト写真・Web PDFの再配布なし"
+    },
+    {
+      "id": "W_Q25",
+      "title": "QUALUCIAカタログ2025",
+      "url": "https://www.fiole.jp/member/catalog_pop/pdf/cat_qualucia_2025_ver1.pdf",
+      "kind": "official_pdf",
+      "edition": "2025 ver1",
+      "accessed_on": "2026-10-01",
+      "publication_date": null,
+      "sha256": "3323504596865f8a85f24039cad2261ae4e7bae9e2eec65f49b5f1f0ba33484c",
+      "locator_policy": "PDF物理ページ／Webセクション",
+      "rights": "参照URLと抽出事実のみ。サイト写真・Web PDFの再配布なし"
+    },
+    {
+      "id": "W_BL_CAT",
+      "title": "BLカタログ",
+      "url": "https://www.fiole.jp/member/catalog_pop/pdf/bl-color.pdf",
+      "kind": "official_pdf",
+      "edition": null,
+      "accessed_on": "2026-10-01",
+      "publication_date": null,
+      "sha256": "8bc8d0acb4799e1c571f065a3079b8deba0f6ebd9614f631f1a71db2dd91deac",
+      "locator_policy": "PDF物理ページ／Webセクション",
+      "rights": "参照URLと抽出事実のみ。サイト写真・Web PDFの再配布なし"
+    },
+    {
+      "id": "W_BLEACH",
+      "title": "QUALUCIAブリーチリーフレット",
+      "url": "https://www.fiole.jp/member/catalog_pop/pdf/leaf-qualucia_bleach-a4.pdf",
+      "kind": "official_pdf",
+      "edition": null,
+      "accessed_on": "2026-10-01",
+      "publication_date": null,
+      "sha256": "163c38872f63f2e76059e4053e5d557316e27fc0c040c48b817e86e7f0890f7f",
+      "locator_policy": "PDF物理ページ／Webセクション",
+      "rights": "参照URLと抽出事実のみ。サイト写真・Web PDFの再配布なし"
+    },
+    {
+      "id": "W_GOALD26",
+      "title": "GOALD公式レシピ2026",
+      "url": "https://www.fiole.jp/special/fiole-goald_26/",
+      "kind": "official_web",
+      "edition": "2026",
+      "accessed_on": "2026-10-01",
+      "publication_date": null,
+      "sha256": null,
+      "locator_policy": "PDF物理ページ／Webセクション",
+      "rights": "参照URLと抽出事実のみ。サイト写真・Web PDFの再配布なし"
+    },
+    {
+      "id": "W_NEWS",
+      "title": "FIOLEニュース",
+      "url": "https://www.fiole.jp/news/index.html",
+      "kind": "official_web",
+      "edition": null,
+      "accessed_on": "2026-10-01",
+      "publication_date": null,
+      "sha256": null,
+      "locator_policy": "PDF物理ページ／Webセクション",
+      "rights": "参照URLと抽出事実のみ。サイト写真・Web PDFの再配布なし"
+    },
+    {
+      "id": "W_ICC",
+      "title": "ICC sRGB定義",
+      "url": "https://registry.color.org/rgb-registry/srgb",
+      "kind": "official_web",
+      "edition": "IEC 61966-2-1:1999",
+      "accessed_on": "2026-10-01",
+      "publication_date": null,
+      "sha256": null,
+      "locator_policy": "PDF物理ページ／Webセクション",
+      "rights": "参照URLと抽出事実のみ。サイト写真・Web PDFの再配布なし"
+    },
+    {
+      "id": "W_CIE",
+      "title": "CIEDE2000定義",
+      "url": "https://cie.co.at/publications/colorimetry-part-6-ciede2000-colour-difference-formula-1",
+      "kind": "official_web",
+      "edition": "ISO/CIE 11664-6:2022",
+      "accessed_on": "2026-10-01",
+      "publication_date": null,
+      "sha256": null,
+      "locator_policy": "PDF物理ページ／Webセクション",
+      "rights": "参照URLと抽出事実のみ。サイト写真・Web PDFの再配布なし"
+    },
+    {
+      "id": "W_FACE",
+      "title": "MediaPipe Face Landmarker",
+      "url": "https://developers.google.com/edge/mediapipe/solutions/vision/face_landmarker",
+      "kind": "official_web",
+      "edition": null,
+      "accessed_on": "2026-10-01",
+      "publication_date": null,
+      "sha256": null,
+      "locator_policy": "PDF物理ページ／Webセクション",
+      "rights": "参照URLと抽出事実のみ。サイト写真・Web PDFの再配布なし"
+    },
+    {
+      "id": "W_GALLERY",
+      "title": "レシピギャラリー・画像利用条件",
+      "url": "https://www.fiole.jp/color_recipe_gallery/index.html",
+      "kind": "official_web",
+      "edition": null,
+      "accessed_on": "2026-10-01",
+      "publication_date": null,
+      "sha256": null,
+      "locator_policy": "PDF物理ページ／Webセクション",
+      "rights": "参照URLと抽出事実のみ。サイト写真・Web PDFの再配布なし"
+    }
+  ],
+  "products": [
+    {
+      "id": "BL_alkali_001",
+      "brand": "BL color",
+      "name": "ニュートラル",
+      "code": "NN",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_001",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_002",
+      "brand": "BL color",
+      "name": "モノトーン",
+      "code": "MT",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_002",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_003",
+      "brand": "BL color",
+      "name": "グレイナチュラル",
+      "code": "GN",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_003",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_004",
+      "brand": "BL color",
+      "name": "グレイアッシュ",
+      "code": "GA",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_004",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_005",
+      "brand": "BL color",
+      "name": "グレイピンク",
+      "code": "GP",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_005",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_006",
+      "brand": "BL color",
+      "name": "グレイブラウン",
+      "code": "GB",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_006",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_007",
+      "brand": "BL color",
+      "name": "グレイナチュラルブラウン",
+      "code": "GNB",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_007",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_008",
+      "brand": "BL color",
+      "name": "グレイイエロー",
+      "code": "GY",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_008",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_009",
+      "brand": "BL color",
+      "name": "イエローマット",
+      "code": "YM",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_009",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_010",
+      "brand": "BL color",
+      "name": "グリーン",
+      "code": "G",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_010",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_011",
+      "brand": "BL color",
+      "name": "マットブルー",
+      "code": "MB",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_011",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_012",
+      "brand": "BL color",
+      "name": "ブルー",
+      "code": "B",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_012",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_013",
+      "brand": "BL color",
+      "name": "ブルーバイオレット",
+      "code": "BV",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_013",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_014",
+      "brand": "BL color",
+      "name": "バイオレット",
+      "code": "V",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_014",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_015",
+      "brand": "BL color",
+      "name": "レッドバイオレット",
+      "code": "RV",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_015",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_016",
+      "brand": "BL color",
+      "name": "レッド",
+      "code": "R",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_016",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_017",
+      "brand": "BL color",
+      "name": "ピンク",
+      "code": "P",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_017",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_018",
+      "brand": "BL color",
+      "name": "オレンジ",
+      "code": "O",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_018",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_019",
+      "brand": "BL color",
+      "name": "コッパー",
+      "code": "C",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_019",
+      "sku": null
+    },
+    {
+      "id": "BL_alkali_020",
+      "brand": "BL color",
+      "name": "イエロー",
+      "code": "Y",
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_alkali_020",
+      "sku": null
+    },
+    {
+      "id": "BL_acid_021",
+      "brand": "BL color",
+      "name": "ブラック",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "acid",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_acid_021",
+      "sku": null
+    },
+    {
+      "id": "BL_acid_022",
+      "brand": "BL color",
+      "name": "ダークグレイ",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "acid",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_acid_022",
+      "sku": null
+    },
+    {
+      "id": "BL_acid_023",
+      "brand": "BL color",
+      "name": "ブラウン",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "acid",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_acid_023",
+      "sku": null
+    },
+    {
+      "id": "BL_acid_024",
+      "brand": "BL color",
+      "name": "ウォームブラウン",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "acid",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_acid_024",
+      "sku": null
+    },
+    {
+      "id": "BL_acid_025",
+      "brand": "BL color",
+      "name": "クールブラウン",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "acid",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_acid_025",
+      "sku": null
+    },
+    {
+      "id": "BL_acid_026",
+      "brand": "BL color",
+      "name": "アッシュ",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "acid",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_acid_026",
+      "sku": null
+    },
+    {
+      "id": "BL_acid_027",
+      "brand": "BL color",
+      "name": "マット",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "acid",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_acid_027",
+      "sku": null
+    },
+    {
+      "id": "BL_acid_028",
+      "brand": "BL color",
+      "name": "ブルー",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "acid",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_acid_028",
+      "sku": null
+    },
+    {
+      "id": "BL_acid_029",
+      "brand": "BL color",
+      "name": "ディープブルー",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "acid",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_acid_029",
+      "sku": null
+    },
+    {
+      "id": "BL_acid_030",
+      "brand": "BL color",
+      "name": "バイオレット",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "acid",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_acid_030",
+      "sku": null
+    },
+    {
+      "id": "BL_acid_031",
+      "brand": "BL color",
+      "name": "ワインレッド",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "acid",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_acid_031",
+      "sku": null
+    },
+    {
+      "id": "BL_acid_032",
+      "brand": "BL color",
+      "name": "レッド",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "acid",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_acid_032",
+      "sku": null
+    },
+    {
+      "id": "BL_acid_033",
+      "brand": "BL color",
+      "name": "コッパーオレンジ",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "acid",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_acid_033",
+      "sku": null
+    },
+    {
+      "id": "BL_acid_034",
+      "brand": "BL color",
+      "name": "イエロー",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "acid",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "BL_acid_034",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_035",
+      "brand": "QUALUCIA",
+      "name": "グレー",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_035",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_036",
+      "brand": "QUALUCIA",
+      "name": "シルバー",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_036",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_037",
+      "brand": "QUALUCIA",
+      "name": "オリーブベージュ",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_037",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_038",
+      "brand": "QUALUCIA",
+      "name": "サンドベージュ",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_038",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_039",
+      "brand": "QUALUCIA",
+      "name": "ピンクベージュ",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_039",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_040",
+      "brand": "QUALUCIA",
+      "name": "ベージュ",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_040",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_041",
+      "brand": "QUALUCIA",
+      "name": "グリーン",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_041",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_042",
+      "brand": "QUALUCIA",
+      "name": "アクアブルー",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_042",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_043",
+      "brand": "QUALUCIA",
+      "name": "ネイビーブルー",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_043",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_044",
+      "brand": "QUALUCIA",
+      "name": "ネイビーブルー",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_044",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_045",
+      "brand": "QUALUCIA",
+      "name": "ウルトラバイオレット",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_045",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_046",
+      "brand": "QUALUCIA",
+      "name": "ディープバイオレット",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_046",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_047",
+      "brand": "QUALUCIA",
+      "name": "ディープパープル",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_047",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_048",
+      "brand": "QUALUCIA",
+      "name": "ロイヤルパープル",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_048",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_049",
+      "brand": "QUALUCIA",
+      "name": "ピンクパール",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_049",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_050",
+      "brand": "QUALUCIA",
+      "name": "ピンク",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_050",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_051",
+      "brand": "QUALUCIA",
+      "name": "レッド",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_051",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_052",
+      "brand": "QUALUCIA",
+      "name": "カーディナルレッド",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_052",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_053",
+      "brand": "QUALUCIA",
+      "name": "コーラルピンク",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_053",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_054",
+      "brand": "QUALUCIA",
+      "name": "オレンジ",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_054",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_055",
+      "brand": "QUALUCIA",
+      "name": "イエロー",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_055",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_056",
+      "brand": "QUALUCIA",
+      "name": "シルバーアッシュ",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_056",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_057",
+      "brand": "QUALUCIA",
+      "name": "ラベンダー",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_057",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_058",
+      "brand": "QUALUCIA",
+      "name": "グレージュ",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_058",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_059",
+      "brand": "QUALUCIA",
+      "name": "ブラウンブースター",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_059",
+      "sku": null
+    },
+    {
+      "id": "Q_alkali_060",
+      "brand": "QUALUCIA",
+      "name": "ブラックブースター",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_alkali_060",
+      "sku": null
+    },
+    {
+      "id": "Q_low_alkali_061",
+      "brand": "QUALUCIA",
+      "name": "ホワイトベージュ",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "low_alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_low_alkali_061",
+      "sku": null
+    },
+    {
+      "id": "Q_low_alkali_062",
+      "brand": "QUALUCIA",
+      "name": "ホワイトアッシュ",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "low_alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_low_alkali_062",
+      "sku": null
+    },
+    {
+      "id": "Q_low_alkali_063",
+      "brand": "QUALUCIA",
+      "name": "ホワイトピンク",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "low_alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_low_alkali_063",
+      "sku": null
+    },
+    {
+      "id": "Q_low_alkali_064",
+      "brand": "QUALUCIA",
+      "name": "ブラウン",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "low_alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "Q_low_alkali_064",
+      "sku": null
+    },
+    {
+      "id": "Q_basic_065",
+      "brand": "QUALUCIA",
+      "name": "レッド",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "basic",
+      "regulatory_class": "化粧品",
+      "catalog_entry_id": "Q_basic_065",
+      "sku": null
+    },
+    {
+      "id": "Q_basic_066",
+      "brand": "QUALUCIA",
+      "name": "オレンジ",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "basic",
+      "regulatory_class": "化粧品",
+      "catalog_entry_id": "Q_basic_066",
+      "sku": null
+    },
+    {
+      "id": "Q_basic_067",
+      "brand": "QUALUCIA",
+      "name": "イエロー",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "basic",
+      "regulatory_class": "化粧品",
+      "catalog_entry_id": "Q_basic_067",
+      "sku": null
+    },
+    {
+      "id": "SPECIAL_068",
+      "brand": "BL color",
+      "name": "ライトナー",
+      "code": null,
+      "role": "lightener",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "SPECIAL_068",
+      "sku": null
+    },
+    {
+      "id": "SPECIAL_069",
+      "brand": "BL color",
+      "name": "クリア",
+      "code": null,
+      "role": "diluent",
+      "family": "acid",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "SPECIAL_069",
+      "sku": null
+    },
+    {
+      "id": "SPECIAL_070",
+      "brand": "QUALUCIA",
+      "name": "ハイライトナー",
+      "code": null,
+      "role": "lightener",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "SPECIAL_070",
+      "sku": null
+    },
+    {
+      "id": "SPECIAL_071",
+      "brand": "QUALUCIA",
+      "name": "ミルキーホワイト",
+      "code": null,
+      "role": "color_first_agent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "SPECIAL_071",
+      "sku": null
+    },
+    {
+      "id": "SPECIAL_072",
+      "brand": "QUALUCIA",
+      "name": "クリア",
+      "code": null,
+      "role": "diluent",
+      "family": "alkali",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": "SPECIAL_072",
+      "sku": null
+    },
+    {
+      "id": "SPECIAL_073",
+      "brand": "QUALUCIA",
+      "name": "クリア",
+      "code": null,
+      "role": "diluent",
+      "family": "basic",
+      "regulatory_class": "化粧品",
+      "catalog_entry_id": "SPECIAL_073",
+      "sku": null
+    },
+    {
+      "id": "DEV_OX6",
+      "brand": "FIOLE",
+      "name": "BLカラー OX6",
+      "code": "OX6",
+      "role": "developer",
+      "family": "ox",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": null,
+      "sku": null
+    },
+    {
+      "id": "DEV_OX3",
+      "brand": "FIOLE",
+      "name": "BLカラー OX3",
+      "code": "OX3",
+      "role": "developer",
+      "family": "ox",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": null,
+      "sku": null
+    },
+    {
+      "id": "DEV_OX1_5",
+      "brand": "FIOLE",
+      "name": "BLカラー OX1.5",
+      "code": "OX1.5",
+      "role": "developer",
+      "family": "ox",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": null,
+      "sku": null
+    },
+    {
+      "id": "DEV_AC3",
+      "brand": "FIOLE",
+      "name": "BLカラー AC3",
+      "code": "AC3",
+      "role": "developer",
+      "family": "ac",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": null,
+      "sku": null
+    },
+    {
+      "id": "DEV_AC6",
+      "brand": "FIOLE",
+      "name": "BLカラー AC6",
+      "code": "AC6",
+      "role": "developer",
+      "family": "ac",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": null,
+      "sku": null
+    },
+    {
+      "id": "DEV_OX2",
+      "brand": "FIOLE",
+      "name": "BLカラー OX2",
+      "code": "OX2",
+      "role": "developer",
+      "family": "ox",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": null,
+      "sku": null
+    },
+    {
+      "id": "DEV_CREAM_OX6",
+      "brand": "FIOLE",
+      "name": "フィヨーレ クリームOX6",
+      "code": "CREAM_OX6",
+      "role": "developer",
+      "family": "cream_ox",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": null,
+      "sku": null
+    },
+    {
+      "id": "DEV_CREAM_OX3",
+      "brand": "FIOLE",
+      "name": "フィヨーレ クリームOX3",
+      "code": "CREAM_OX3",
+      "role": "developer",
+      "family": "cream_ox",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": null,
+      "sku": null
+    },
+    {
+      "id": "BLEACH_BL_CREAM",
+      "brand": "BL",
+      "name": "BLブリーチクリーム",
+      "code": null,
+      "role": "bleach",
+      "family": "bleach",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": null,
+      "sku": null
+    },
+    {
+      "id": "BLEACH_BL_POWDER",
+      "brand": "BL",
+      "name": "BLパウダーブリーチ",
+      "code": null,
+      "role": "bleach",
+      "family": "bleach",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": null,
+      "sku": null
+    },
+    {
+      "id": "BLEACH_Q",
+      "brand": "Q",
+      "name": "クオルシア ブリーチ",
+      "code": null,
+      "role": "bleach",
+      "family": "bleach",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": null,
+      "sku": null
+    },
+    {
+      "id": "BLEACH_Q_HIGH",
+      "brand": "Q",
+      "name": "クオルシア ハイブリーチ",
+      "code": null,
+      "role": "bleach",
+      "family": "bleach",
+      "regulatory_class": "医薬部外品",
+      "catalog_entry_id": null,
+      "sku": null
+    },
+    {
+      "id": "BL_GLOSS",
+      "brand": "BL",
+      "name": "BLカラーグロス",
+      "code": null,
+      "role": "direct_color",
+      "family": "hair_manicure",
+      "regulatory_class": null,
+      "catalog_entry_id": null,
+      "sku": null
+    }
+  ],
+  "verified_variants": [
+    {
+      "id": "Q_alkali_035_L3",
+      "product_id": "Q_alkali_035",
+      "level": 3,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "グレー 3",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_035_L5",
+      "product_id": "Q_alkali_035",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "グレー 5",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_035_L7",
+      "product_id": "Q_alkali_035",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "グレー 7",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_035_L9",
+      "product_id": "Q_alkali_035",
+      "level": 9,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "グレー 9",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_035_L11",
+      "product_id": "Q_alkali_035",
+      "level": 11,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "グレー 11",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_035_L13",
+      "product_id": "Q_alkali_035",
+      "level": 13,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "グレー 13",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_036_L5",
+      "product_id": "Q_alkali_036",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "シルバー 5",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_036_L7",
+      "product_id": "Q_alkali_036",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "シルバー 7",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_036_L9",
+      "product_id": "Q_alkali_036",
+      "level": 9,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "シルバー 9",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_036_L11",
+      "product_id": "Q_alkali_036",
+      "level": 11,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "シルバー 11",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_036_L13",
+      "product_id": "Q_alkali_036",
+      "level": 13,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "シルバー 13",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_037_L5",
+      "product_id": "Q_alkali_037",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "オリーブベージュ 5",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_037_L7",
+      "product_id": "Q_alkali_037",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "オリーブベージュ 7",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_037_L9",
+      "product_id": "Q_alkali_037",
+      "level": 9,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "オリーブベージュ 9",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_037_L11",
+      "product_id": "Q_alkali_037",
+      "level": 11,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "オリーブベージュ 11",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_037_L13",
+      "product_id": "Q_alkali_037",
+      "level": 13,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "オリーブベージュ 13",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_038_L5",
+      "product_id": "Q_alkali_038",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "サンドベージュ 5",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_038_L7",
+      "product_id": "Q_alkali_038",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "サンドベージュ 7",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_038_L9",
+      "product_id": "Q_alkali_038",
+      "level": 9,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "サンドベージュ 9",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_038_L11",
+      "product_id": "Q_alkali_038",
+      "level": 11,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "サンドベージュ 11",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_038_L13",
+      "product_id": "Q_alkali_038",
+      "level": 13,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "サンドベージュ 13",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_039_L5",
+      "product_id": "Q_alkali_039",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ピンクベージュ 5",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_039_L7",
+      "product_id": "Q_alkali_039",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ピンクベージュ 7",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_039_L9",
+      "product_id": "Q_alkali_039",
+      "level": 9,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ピンクベージュ 9",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_039_L11",
+      "product_id": "Q_alkali_039",
+      "level": 11,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ピンクベージュ 11",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_039_L13",
+      "product_id": "Q_alkali_039",
+      "level": 13,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ピンクベージュ 13",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_040_L3",
+      "product_id": "Q_alkali_040",
+      "level": 3,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ベージュ 3",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_040_L5",
+      "product_id": "Q_alkali_040",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ベージュ 5",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_040_L7",
+      "product_id": "Q_alkali_040",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ベージュ 7",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_040_L8",
+      "product_id": "Q_alkali_040",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ベージュ 8",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_040_L9",
+      "product_id": "Q_alkali_040",
+      "level": 9,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ベージュ 9",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_040_L11",
+      "product_id": "Q_alkali_040",
+      "level": 11,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ベージュ 11",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_040_L13",
+      "product_id": "Q_alkali_040",
+      "level": 13,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ベージュ 13",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p4",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_040_L14",
+      "product_id": "Q_alkali_040",
+      "level": 14,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ベージュ 14",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_041_L6",
+      "product_id": "Q_alkali_041",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "グリーン 6",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_042_L7",
+      "product_id": "Q_alkali_042",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "アクアブルー 7",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_043_L5",
+      "product_id": "Q_alkali_043",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ネイビーブルー 5",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_044_L3",
+      "product_id": "Q_alkali_044",
+      "level": 3,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ネイビーブルー 3",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_045_L6",
+      "product_id": "Q_alkali_045",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ウルトラバイオレット 6",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_046_L5",
+      "product_id": "Q_alkali_046",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ディープバイオレット 5",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_047_L5",
+      "product_id": "Q_alkali_047",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ディープパープル 5",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_048_L3",
+      "product_id": "Q_alkali_048",
+      "level": 3,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ロイヤルパープル 3",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_049_L6",
+      "product_id": "Q_alkali_049",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ピンクパール 6",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_050_L6",
+      "product_id": "Q_alkali_050",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ピンク 6",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_051_L7",
+      "product_id": "Q_alkali_051",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "レッド 7",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_052_L7",
+      "product_id": "Q_alkali_052",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "カーディナルレッド 7",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_053_L6",
+      "product_id": "Q_alkali_053",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "コーラルピンク 6",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_053_L10",
+      "product_id": "Q_alkali_053",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "コーラルピンク 10",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_054_L10",
+      "product_id": "Q_alkali_054",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "オレンジ 10",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_055_L11",
+      "product_id": "Q_alkali_055",
+      "level": 11,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "イエロー 11",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_056_L14",
+      "product_id": "Q_alkali_056",
+      "level": 14,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "シルバーアッシュ 14",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_057_L14",
+      "product_id": "Q_alkali_057",
+      "level": 14,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ラベンダー 14",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_058_L7",
+      "product_id": "Q_alkali_058",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "グレージュ 7",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_059_L3",
+      "product_id": "Q_alkali_059",
+      "level": 3,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ブラウンブースター 3",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_alkali_060_L1",
+      "product_id": "Q_alkali_060",
+      "level": 1,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ブラックブースター 1",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "SPECIAL_070_L14",
+      "product_id": "SPECIAL_070",
+      "level": 14,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ハイライトナー 14",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "SPECIAL_071_L10",
+      "product_id": "SPECIAL_071",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "ミルキーホワイト 10",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "SPECIAL_072_L0",
+      "product_id": "SPECIAL_072",
+      "level": 0,
+      "level_semantics": "diluent_code_not_lightness",
+      "manufacturer_label": "クリア 0",
+      "sku": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_002_L12",
+      "product_id": "BL_alkali_002",
+      "level": 12,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "12MT",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_003_L12",
+      "product_id": "BL_alkali_003",
+      "level": 12,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "12GN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_004_L12",
+      "product_id": "BL_alkali_004",
+      "level": 12,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "12GA",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_005_L12",
+      "product_id": "BL_alkali_005",
+      "level": 12,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "12GP",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_006_L12",
+      "product_id": "BL_alkali_006",
+      "level": 12,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "12GB",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_007_L12",
+      "product_id": "BL_alkali_007",
+      "level": 12,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "12GNB",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_008_L12",
+      "product_id": "BL_alkali_008",
+      "level": 12,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "12GY",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_001_L10",
+      "product_id": "BL_alkali_001",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "10NN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_002_L10",
+      "product_id": "BL_alkali_002",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "10MT",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_003_L10",
+      "product_id": "BL_alkali_003",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "10GN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_004_L10",
+      "product_id": "BL_alkali_004",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "10GA",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_005_L10",
+      "product_id": "BL_alkali_005",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "10GP",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_006_L10",
+      "product_id": "BL_alkali_006",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "10GB",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_007_L10",
+      "product_id": "BL_alkali_007",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "10GNB",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_008_L10",
+      "product_id": "BL_alkali_008",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "10GY",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_009_L10",
+      "product_id": "BL_alkali_009",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "YM10",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_011_L10",
+      "product_id": "BL_alkali_011",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "MB10",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_012_L10",
+      "product_id": "BL_alkali_012",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "B10",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_013_L10",
+      "product_id": "BL_alkali_013",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "BV10",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_014_L10",
+      "product_id": "BL_alkali_014",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "V10",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_015_L10",
+      "product_id": "BL_alkali_015",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "RV10",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_017_L10",
+      "product_id": "BL_alkali_017",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "P10",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_018_L10",
+      "product_id": "BL_alkali_018",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "O10",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_019_L10",
+      "product_id": "BL_alkali_019",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "C10",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_020_L10",
+      "product_id": "BL_alkali_020",
+      "level": 10,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "Y10",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_001_L9",
+      "product_id": "BL_alkali_001",
+      "level": 9,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "9NN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_001_L8",
+      "product_id": "BL_alkali_001",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "8NN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_002_L8",
+      "product_id": "BL_alkali_002",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "8MT",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_003_L8",
+      "product_id": "BL_alkali_003",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "8GN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_004_L8",
+      "product_id": "BL_alkali_004",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "8GA",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_005_L8",
+      "product_id": "BL_alkali_005",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "8GP",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_006_L8",
+      "product_id": "BL_alkali_006",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "8GB",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_007_L8",
+      "product_id": "BL_alkali_007",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "8GNB",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_008_L8",
+      "product_id": "BL_alkali_008",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "8GY",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_009_L8",
+      "product_id": "BL_alkali_009",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "YM8",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_011_L8",
+      "product_id": "BL_alkali_011",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "MB8",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_012_L8",
+      "product_id": "BL_alkali_012",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "B8",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_013_L8",
+      "product_id": "BL_alkali_013",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "BV8",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_014_L8",
+      "product_id": "BL_alkali_014",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "V8",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_015_L8",
+      "product_id": "BL_alkali_015",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "RV8",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_017_L8",
+      "product_id": "BL_alkali_017",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "P8",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_019_L8",
+      "product_id": "BL_alkali_019",
+      "level": 8,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "C8",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_001_L7",
+      "product_id": "BL_alkali_001",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "7NN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_002_L7",
+      "product_id": "BL_alkali_002",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "7MT",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_003_L7",
+      "product_id": "BL_alkali_003",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "7GN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_004_L7",
+      "product_id": "BL_alkali_004",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "7GA",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_005_L7",
+      "product_id": "BL_alkali_005",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "7GP",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_006_L7",
+      "product_id": "BL_alkali_006",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "7GB",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_007_L7",
+      "product_id": "BL_alkali_007",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "7GNB",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_008_L7",
+      "product_id": "BL_alkali_008",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "7GY",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_016_L7",
+      "product_id": "BL_alkali_016",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "R7",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_018_L7",
+      "product_id": "BL_alkali_018",
+      "level": 7,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "O7",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_001_L6",
+      "product_id": "BL_alkali_001",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "6NN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_002_L6",
+      "product_id": "BL_alkali_002",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "6MT",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_003_L6",
+      "product_id": "BL_alkali_003",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "6GN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_004_L6",
+      "product_id": "BL_alkali_004",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "6GA",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_005_L6",
+      "product_id": "BL_alkali_005",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "6GP",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_006_L6",
+      "product_id": "BL_alkali_006",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "6GB",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_007_L6",
+      "product_id": "BL_alkali_007",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "6GNB",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_008_L6",
+      "product_id": "BL_alkali_008",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "6GY",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_009_L6",
+      "product_id": "BL_alkali_009",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "YM6",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_010_L6",
+      "product_id": "BL_alkali_010",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "G6",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_011_L6",
+      "product_id": "BL_alkali_011",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "MB6",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_012_L6",
+      "product_id": "BL_alkali_012",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "B6",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_013_L6",
+      "product_id": "BL_alkali_013",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "BV6",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_014_L6",
+      "product_id": "BL_alkali_014",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "V6",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_015_L6",
+      "product_id": "BL_alkali_015",
+      "level": 6,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "RV6",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_001_L5",
+      "product_id": "BL_alkali_001",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "5NN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_002_L5",
+      "product_id": "BL_alkali_002",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "5MT",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_003_L5",
+      "product_id": "BL_alkali_003",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "5GN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_004_L5",
+      "product_id": "BL_alkali_004",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "5GA",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_005_L5",
+      "product_id": "BL_alkali_005",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "5GP",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_006_L5",
+      "product_id": "BL_alkali_006",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "5GB",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_007_L5",
+      "product_id": "BL_alkali_007",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "5GNB",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_008_L5",
+      "product_id": "BL_alkali_008",
+      "level": 5,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "5GY",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_001_L4",
+      "product_id": "BL_alkali_001",
+      "level": 4,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "4NN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_002_L4",
+      "product_id": "BL_alkali_002",
+      "level": 4,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "4MT",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_003_L4",
+      "product_id": "BL_alkali_003",
+      "level": 4,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "4GN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_004_L4",
+      "product_id": "BL_alkali_004",
+      "level": 4,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "4GA",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_005_L4",
+      "product_id": "BL_alkali_005",
+      "level": 4,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "4GP",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_006_L4",
+      "product_id": "BL_alkali_006",
+      "level": 4,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "4GB",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_007_L4",
+      "product_id": "BL_alkali_007",
+      "level": 4,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "4GNB",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_008_L4",
+      "product_id": "BL_alkali_008",
+      "level": 4,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "4GY",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_014_L4",
+      "product_id": "BL_alkali_014",
+      "level": 4,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "V4",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_001_L3",
+      "product_id": "BL_alkali_001",
+      "level": 3,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "3NN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_002_L3",
+      "product_id": "BL_alkali_002",
+      "level": 3,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "3MT",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_001_L2",
+      "product_id": "BL_alkali_001",
+      "level": 2,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "2NN",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "BL_alkali_007_L2",
+      "product_id": "BL_alkali_007",
+      "level": 2,
+      "level_semantics": "catalog_level_black_hair",
+      "manufacturer_label": "2GNB",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "SPECIAL_068_L12",
+      "product_id": "SPECIAL_068",
+      "level": 12,
+      "level_semantics": "chart_row_lightener_not_dye_level",
+      "manufacturer_label": "ライトナー",
+      "sku": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4右／印刷p6",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_low_alkali_061_L13",
+      "product_id": "Q_low_alkali_061",
+      "level": 13,
+      "level_semantics": "low_alkali_label_not_verified_lift",
+      "manufacturer_label": "ホワイトベージュ 13",
+      "sku": null,
+      "source_id": "W_GOALD26",
+      "locator": "case02",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    },
+    {
+      "id": "Q_low_alkali_064_L9",
+      "product_id": "Q_low_alkali_064",
+      "level": 9,
+      "level_semantics": "low_alkali_label_not_verified_lift",
+      "manufacturer_label": "ブラウン 9",
+      "sku": null,
+      "source_id": "W_GOALD26",
+      "locator": "case02",
+      "evidence_type": "source_explicit",
+      "market_availability": "unknown"
+    }
+  ],
+  "developer_profiles": [
+    {
+      "product_id": "DEV_OX6",
+      "label_number": 6.0,
+      "verified_h2o2_percent": null,
+      "percent_basis": null,
+      "viscosity_numeric": null,
+      "alkali_reduction": null
+    },
+    {
+      "product_id": "DEV_OX3",
+      "label_number": 3.0,
+      "verified_h2o2_percent": null,
+      "percent_basis": null,
+      "viscosity_numeric": null,
+      "alkali_reduction": null
+    },
+    {
+      "product_id": "DEV_OX1_5",
+      "label_number": 1.5,
+      "verified_h2o2_percent": null,
+      "percent_basis": null,
+      "viscosity_numeric": null,
+      "alkali_reduction": null
+    },
+    {
+      "product_id": "DEV_AC3",
+      "label_number": 3.0,
+      "verified_h2o2_percent": null,
+      "percent_basis": null,
+      "viscosity_numeric": null,
+      "alkali_reduction": "qualitative_manufacturer_claim"
+    },
+    {
+      "product_id": "DEV_AC6",
+      "label_number": 6.0,
+      "verified_h2o2_percent": null,
+      "percent_basis": null,
+      "viscosity_numeric": null,
+      "alkali_reduction": "qualitative_manufacturer_claim"
+    },
+    {
+      "product_id": "DEV_OX2",
+      "label_number": 2.0,
+      "verified_h2o2_percent": null,
+      "percent_basis": null,
+      "viscosity_numeric": null,
+      "alkali_reduction": null
+    },
+    {
+      "product_id": "DEV_CREAM_OX6",
+      "label_number": 6.0,
+      "verified_h2o2_percent": null,
+      "percent_basis": null,
+      "viscosity_numeric": null,
+      "alkali_reduction": null
+    },
+    {
+      "product_id": "DEV_CREAM_OX3",
+      "label_number": 3.0,
+      "verified_h2o2_percent": null,
+      "percent_basis": null,
+      "viscosity_numeric": null,
+      "alkali_reduction": null
+    }
+  ],
+  "packages": [
+    {
+      "product_id": "DEV_OX6",
+      "amount": 2000,
+      "unit": "mL",
+      "source_id": "W_BL",
+      "locator": "第2剤",
+      "availability": "listed_in_source_not_stock_verified"
+    },
+    {
+      "product_id": "DEV_OX3",
+      "amount": 2000,
+      "unit": "mL",
+      "source_id": "W_BL",
+      "locator": "第2剤",
+      "availability": "listed_in_source_not_stock_verified"
+    },
+    {
+      "product_id": "DEV_OX1_5",
+      "amount": 2000,
+      "unit": "mL",
+      "source_id": "W_BL",
+      "locator": "第2剤",
+      "availability": "listed_in_source_not_stock_verified"
+    },
+    {
+      "product_id": "DEV_AC3",
+      "amount": 2000,
+      "unit": "mL",
+      "source_id": "W_BL",
+      "locator": "第2剤",
+      "availability": "listed_in_source_not_stock_verified"
+    },
+    {
+      "product_id": "DEV_AC6",
+      "amount": 2000,
+      "unit": "mL",
+      "source_id": "W_BL",
+      "locator": "第2剤",
+      "availability": "listed_in_source_not_stock_verified"
+    },
+    {
+      "product_id": "DEV_OX2",
+      "amount": 2000,
+      "unit": "mL",
+      "source_id": "W_Q25",
+      "locator": "PDF p6",
+      "availability": "listed_in_source_not_stock_verified"
+    },
+    {
+      "product_id": "DEV_CREAM_OX6",
+      "amount": 2000,
+      "unit": "mL",
+      "source_id": "W_CREAM",
+      "locator": "第2剤",
+      "availability": "listed_in_source_not_stock_verified"
+    },
+    {
+      "product_id": "DEV_CREAM_OX3",
+      "amount": 2000,
+      "unit": "mL",
+      "source_id": "W_CREAM",
+      "locator": "第2剤",
+      "availability": "listed_in_source_not_stock_verified"
+    },
+    {
+      "product_id": "DEV_OX6",
+      "amount": 1000,
+      "unit": "mL",
+      "source_id": "W_Q25",
+      "locator": "PDF p6",
+      "availability": "historical_listing_current_unknown"
+    },
+    {
+      "product_id": "DEV_OX3",
+      "amount": 1000,
+      "unit": "mL",
+      "source_id": "W_Q25",
+      "locator": "PDF p6",
+      "availability": "historical_listing_current_unknown"
+    },
+    {
+      "product_id": "BLEACH_BL_CREAM",
+      "amount": 250,
+      "unit": "g",
+      "source_id": "W_BL",
+      "locator": "ブリーチ剤",
+      "availability": "listed_in_source_not_stock_verified"
+    },
+    {
+      "product_id": "BLEACH_BL_POWDER",
+      "amount": 500,
+      "unit": "g",
+      "source_id": "W_BL",
+      "locator": "ブリーチ剤",
+      "availability": "listed_in_source_not_stock_verified"
+    },
+    {
+      "product_id": "BLEACH_Q",
+      "amount": 500,
+      "unit": "g",
+      "source_id": "W_Q",
+      "locator": "ブリーチ剤",
+      "availability": "listed_in_source_not_stock_verified"
+    },
+    {
+      "product_id": "BLEACH_Q_HIGH",
+      "amount": 500,
+      "unit": "g",
+      "source_id": "W_Q",
+      "locator": "ブリーチ剤",
+      "availability": "listed_in_source_not_stock_verified"
+    },
+    {
+      "product_id": "BL_GLOSS",
+      "amount": 200,
+      "unit": "g",
+      "source_id": "W_BL",
+      "locator": "ヘアマニキュア",
+      "availability": "listed_in_source_not_stock_verified"
+    },
+    {
+      "product_id": "BL_GLOSS",
+      "amount": 900,
+      "unit": "g",
+      "source_id": "W_BL",
+      "locator": "ヘアマニキュア",
+      "availability": "listed_in_source_not_stock_verified"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C0001",
+      "subject_id": "DEV_OX6",
+      "field": "product_role",
+      "value": "developer",
+      "unit": null,
+      "source_id": "W_BL",
+      "locator": "第2剤",
+      "evidence_type": "source_explicit",
+      "applicability": {},
+      "interpretation": null
+    },
+    {
+      "id": "C0002",
+      "subject_id": "DEV_OX3",
+      "field": "product_role",
+      "value": "developer",
+      "unit": null,
+      "source_id": "W_BL",
+      "locator": "第2剤",
+      "evidence_type": "source_explicit",
+      "applicability": {},
+      "interpretation": null
+    },
+    {
+      "id": "C0003",
+      "subject_id": "DEV_OX1_5",
+      "field": "product_role",
+      "value": "developer",
+      "unit": null,
+      "source_id": "W_BL",
+      "locator": "第2剤",
+      "evidence_type": "source_explicit",
+      "applicability": {},
+      "interpretation": null
+    },
+    {
+      "id": "C0004",
+      "subject_id": "DEV_AC3",
+      "field": "product_role",
+      "value": "developer",
+      "unit": null,
+      "source_id": "W_BL",
+      "locator": "第2剤",
+      "evidence_type": "source_explicit",
+      "applicability": {},
+      "interpretation": null
+    },
+    {
+      "id": "C0005",
+      "subject_id": "DEV_AC6",
+      "field": "product_role",
+      "value": "developer",
+      "unit": null,
+      "source_id": "W_BL",
+      "locator": "第2剤",
+      "evidence_type": "source_explicit",
+      "applicability": {},
+      "interpretation": null
+    },
+    {
+      "id": "C0006",
+      "subject_id": "DEV_OX2",
+      "field": "product_role",
+      "value": "developer",
+      "unit": null,
+      "source_id": "W_Q25",
+      "locator": "PDF p6",
+      "evidence_type": "source_explicit",
+      "applicability": {},
+      "interpretation": null
+    },
+    {
+      "id": "C0007",
+      "subject_id": "DEV_CREAM_OX6",
+      "field": "product_role",
+      "value": "developer",
+      "unit": null,
+      "source_id": "W_CREAM",
+      "locator": "第2剤",
+      "evidence_type": "source_explicit",
+      "applicability": {},
+      "interpretation": null
+    },
+    {
+      "id": "C0008",
+      "subject_id": "DEV_CREAM_OX3",
+      "field": "product_role",
+      "value": "developer",
+      "unit": null,
+      "source_id": "W_CREAM",
+      "locator": "第2剤",
+      "evidence_type": "source_explicit",
+      "applicability": {},
+      "interpretation": null
+    },
+    {
+      "id": "C0009",
+      "subject_id": "BL_GLOSS",
+      "field": "distinct_from",
+      "value": "BL_acid",
+      "unit": null,
+      "source_id": "W_BL",
+      "locator": "ヘアマニキュア",
+      "evidence_type": "design_interpretation",
+      "applicability": {
+        "reason": "別製品。BLアシッドは公式カタログに第2剤使用の記載あり"
+      },
+      "interpretation": null
+    },
+    {
+      "id": "C0010",
+      "subject_id": "BL_GLOSS",
+      "field": "color_count",
+      "value": 19,
+      "unit": null,
+      "source_id": "W_BL",
+      "locator": "ヘアマニキュア",
+      "evidence_type": "source_explicit",
+      "applicability": {},
+      "interpretation": null
+    },
+    {
+      "id": "C0011",
+      "subject_id": "BL_GLOSS",
+      "field": "900g_available_color_labels",
+      "value": [
+        "NB-L",
+        "NB-M",
+        "NB-D",
+        "OB-L",
+        "OB-M",
+        "クリア"
+      ],
+      "unit": null,
+      "source_id": "W_BL",
+      "locator": "ヘアマニキュア",
+      "evidence_type": "source_explicit",
+      "applicability": {},
+      "interpretation": null
+    },
+    {
+      "id": "C0012",
+      "subject_id": "BL_first_agent_line",
+      "field": "package_amount",
+      "value": 120,
+      "unit": "g",
+      "source_id": "W_BL",
+      "locator": "第1剤",
+      "evidence_type": "source_explicit",
+      "applicability": {
+        "not_applied_to": "BLカラーグロス"
+      },
+      "interpretation": null
+    },
+    {
+      "id": "C0013",
+      "subject_id": "Q_first_agent_line",
+      "field": "package_amount",
+      "value": 120,
+      "unit": "g",
+      "source_id": "W_Q",
+      "locator": "第1剤",
+      "evidence_type": "source_explicit",
+      "applicability": {
+        "not_applied_to": "塩基性カラークリームNew"
+      },
+      "interpretation": null
+    },
+    {
+      "id": "C0014",
+      "subject_id": "Q_basic_New_line",
+      "field": "package_amount_options",
+      "value": [
+        280,
+        450
+      ],
+      "unit": "g",
+      "source_id": "W_Q",
+      "locator": "塩基性タイプ",
+      "evidence_type": "source_explicit",
+      "applicability": {
+        "edition": "New",
+        "mapping_to_uploaded_basic_chart": "unverified"
+      },
+      "interpretation": null
+    },
+    {
+      "id": "C0015",
+      "subject_id": "Q_basic_New_line",
+      "field": "regulatory_class",
+      "value": "化粧品",
+      "unit": null,
+      "source_id": "W_Q",
+      "locator": "塩基性タイプ",
+      "evidence_type": "source_explicit",
+      "applicability": {},
+      "interpretation": null
+    },
+    {
+      "id": "C0016",
+      "subject_id": "DEV_AC3",
+      "field": "alkali_reduction",
+      "value": "アルカリ量を低減しpHを下げる定性的説明",
+      "unit": null,
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p3左／印刷p3",
+      "evidence_type": "source_explicit",
+      "applicability": {
+        "numeric_effect": "unknown"
+      },
+      "interpretation": null
+    },
+    {
+      "id": "C0017",
+      "subject_id": "CREAM_OX_line",
+      "field": "viscosity_and_adhesion",
+      "value": "粘性と毛髪密着性についてメーカーの定性的説明あり",
+      "unit": null,
+      "source_id": "W_CREAM",
+      "locator": "商品説明",
+      "evidence_type": "source_explicit",
+      "applicability": {
+        "quantitative_viscosity": "unknown"
+      },
+      "interpretation": null
+    },
+    {
+      "id": "C0018",
+      "subject_id": "color_difference",
+      "field": "metric_definition",
+      "value": "CIEDE2000",
+      "unit": null,
+      "source_id": "W_CIE",
+      "locator": "ISO/CIE 11664-6:2022",
+      "evidence_type": "source_explicit",
+      "applicability": {
+        "role": "perceptual_difference_not_dye_inverse"
+      },
+      "interpretation": null
+    },
+    {
+      "id": "C0019",
+      "subject_id": "sRGB",
+      "field": "reference_whitepoint",
+      "value": "D65",
+      "unit": null,
+      "source_id": "W_ICC",
+      "locator": "Encoding characteristics",
+      "evidence_type": "source_explicit",
+      "applicability": {},
+      "interpretation": null
+    },
+    {
+      "id": "C0020",
+      "subject_id": "face_landmarker",
+      "field": "output_types",
+      "value": [
+        "3D face landmarks",
+        "blendshape scores",
+        "transformation matrices"
+      ],
+      "unit": null,
+      "source_id": "W_FACE",
+      "locator": "Task details",
+      "evidence_type": "source_explicit",
+      "applicability": {},
+      "interpretation": null
+    }
+  ],
+  "rules": [
+    {
+      "id": "R_Q_LOW",
+      "title": "13LV以下 第1剤:第2剤",
+      "scope": {
+        "line": "Q_alkali",
+        "level_max": 13,
+        "edition": "2025"
+      },
+      "parameters": {
+        "ratio": [
+          1,
+          1
+        ],
+        "ratio_basis": null
+      },
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "unresolved": [
+        "質量比／体積比の明記なし",
+        "低アルカリ・塩基性・異なるレベルの混合に自動適用しない"
+      ],
+      "automatically_executable": false
+    },
+    {
+      "id": "R_Q_14",
+      "title": "14LV 第1剤:第2剤",
+      "scope": {
+        "line": "Q_alkali",
+        "level": 14,
+        "edition": "2025"
+      },
+      "parameters": {
+        "ratio": [
+          1,
+          2
+        ],
+        "ratio_basis": null
+      },
+      "source_id": "W_Q25",
+      "locator": "PDF p5",
+      "evidence_type": "source_explicit",
+      "unresolved": [
+        "混合処方への適用条件未確認"
+      ],
+      "automatically_executable": false
+    },
+    {
+      "id": "R_Q_DEV",
+      "title": "BL第2剤の指定",
+      "scope": {
+        "line": "Q_first_agent"
+      },
+      "parameters": {
+        "developer_family": "BL"
+      },
+      "source_id": "W_Q",
+      "locator": "第1剤",
+      "evidence_type": "source_explicit",
+      "unresolved": [
+        "塩基性カラークリームに自動適用しない"
+      ],
+      "automatically_executable": false
+    },
+    {
+      "id": "R_ACID_PH",
+      "title": "BLアシッド 混合時pH",
+      "scope": {
+        "line": "BL_acid",
+        "condition": "第1剤＋第2剤"
+      },
+      "parameters": {
+        "pH": 6,
+        "pH_semantics": "メーカー記載の混合時代表値"
+      },
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4左／印刷p5",
+      "evidence_type": "source_explicit",
+      "unresolved": [
+        "各色・比率・温度別の実測pHは不明"
+      ],
+      "automatically_executable": false
+    },
+    {
+      "id": "R_ACID_SINGLE",
+      "title": "BLアシッド単独使用",
+      "scope": {
+        "line": "BL_acid",
+        "purpose": "リフト不要"
+      },
+      "parameters": {
+        "developer_percent_label": 6,
+        "lift_claim": "リフト力なし"
+      },
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4左／印刷p5",
+      "evidence_type": "source_explicit",
+      "unresolved": [],
+      "automatically_executable": false
+    },
+    {
+      "id": "R_ACID_ACCENT",
+      "title": "BLアルカリ＋アシッド",
+      "scope": {
+        "line": "BL_alkali_acid_mix",
+        "mode": "accent"
+      },
+      "parameters": {
+        "acid_addition_percent_range": [
+          10,
+          20
+        ],
+        "percent_basis": null,
+        "manufacturer_pH_range": [
+          8,
+          9
+        ]
+      },
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4左／印刷p5",
+      "evidence_type": "source_explicit",
+      "unresolved": [
+        "添加率の分母未定義",
+        "pHは線形平均しない"
+      ],
+      "automatically_executable": false
+    },
+    {
+      "id": "R_ACID_OX",
+      "title": "BLアルカリ＋アシッドの第2剤",
+      "scope": {
+        "line": "BL_alkali_acid_mix"
+      },
+      "parameters": {
+        "tone_up": [
+          "OX6"
+        ],
+        "tone_down": [
+          "OX3",
+          "AC3"
+        ]
+      },
+      "source_id": "W_BL_CAT",
+      "locator": "PDF p4左／印刷p5",
+      "evidence_type": "source_explicit",
+      "unresolved": [],
+      "automatically_executable": false
+    },
+    {
+      "id": "R_Q_BLEACH_RATIO",
+      "title": "クオルシアブリーチ混合",
+      "scope": {
+        "product_id": "BLEACH_Q",
+        "not_inferred_for": [
+          "BLEACH_Q_HIGH",
+          "BLEACH_BL_POWDER"
+        ]
+      },
+      "parameters": {
+        "powder_developer_ratio": [
+          1,
+          2
+        ],
+        "ratio_basis": null
+      },
+      "source_id": "W_BLEACH",
+      "locator": "PDF p2",
+      "evidence_type": "source_explicit",
+      "unresolved": [],
+      "automatically_executable": false
+    },
+    {
+      "id": "R_Q_BLEACH_TIME",
+      "title": "クオルシアブリーチ推奨時間",
+      "scope": {
+        "product_id": "BLEACH_Q"
+      },
+      "parameters": {
+        "time_min_range": [
+          10,
+          40
+        ]
+      },
+      "source_id": "W_BLEACH",
+      "locator": "PDF p2",
+      "evidence_type": "source_explicit",
+      "unresolved": [
+        "リフト曲線は定量モデル化しない"
+      ],
+      "automatically_executable": false
+    }
+  ],
+  "reference_cases": [
+    {
+      "id": "CASE01",
+      "title": "パンクローライト",
+      "source_id": "W_GOALD26",
+      "locator": "case01",
+      "data_role": "manufacturer_reference_not_local_outcome",
+      "initial_level": {
+        "all": 18
+      },
+      "prepared_base_level": null,
+      "after_level": 16,
+      "applications": [
+        {
+          "region": "all",
+          "labels": [
+            "Q basic Orange",
+            "Q basic Red"
+          ],
+          "raw_formula": "3:1",
+          "ratio_parts": [
+            3,
+            1
+          ],
+          "ratio_basis": null,
+          "addition_percent": null,
+          "percent_basis": null,
+          "denominator_group": null,
+          "grouping": null,
+          "developer_percent_label": null,
+          "verified_developer_product_id": null,
+          "grams": null,
+          "duration_min": null,
+          "unknowns": [
+            "質量比／体積比・総量・放置時間は未記載"
+          ]
+        },
+        {
+          "region": "lowlight",
+          "labels": [
+            "Q BlackBooster1"
+          ],
+          "raw_formula": "ブラックブースター1 OX3%",
+          "ratio_parts": null,
+          "ratio_basis": null,
+          "addition_percent": null,
+          "percent_basis": null,
+          "denominator_group": null,
+          "grouping": null,
+          "developer_percent_label": 3,
+          "verified_developer_product_id": null,
+          "grams": null,
+          "duration_min": null,
+          "unknowns": [
+            "質量比／体積比・総量・放置時間は未記載"
+          ]
+        }
+      ],
+      "photos_copied": false
+    },
+    {
+      "id": "CASE02",
+      "title": "ブラウンバレイヤージュ",
+      "source_id": "W_GOALD26",
+      "locator": "case02",
+      "data_role": "manufacturer_reference_not_local_outcome",
+      "initial_level": {
+        "all": 17
+      },
+      "prepared_base_level": null,
+      "after_level": 17,
+      "applications": [
+        {
+          "region": "root",
+          "labels": [
+            "Q Brown9/Low",
+            "Q WhiteBeige13/Low"
+          ],
+          "raw_formula": "1:15% OX3%",
+          "ratio_parts": null,
+          "ratio_basis": null,
+          "addition_percent": 15,
+          "percent_basis": null,
+          "denominator_group": null,
+          "grouping": null,
+          "developer_percent_label": 3,
+          "verified_developer_product_id": null,
+          "grams": null,
+          "duration_min": null,
+          "unknowns": [
+            "OX濃度表記のみではOX／AC／クリームOXを同定しない",
+            "添加％の分母・総量は未記載"
+          ]
+        },
+        {
+          "region": "end",
+          "labels": [
+            "Q WhiteBeige13/Low",
+            "Q Brown9/Low"
+          ],
+          "raw_formula": "1:30% OX3%",
+          "ratio_parts": null,
+          "ratio_basis": null,
+          "addition_percent": 30,
+          "percent_basis": null,
+          "denominator_group": null,
+          "grouping": null,
+          "developer_percent_label": 3,
+          "verified_developer_product_id": null,
+          "grams": null,
+          "duration_min": null,
+          "unknowns": [
+            "OX濃度表記のみではOX／AC／クリームOXを同定しない",
+            "添加％の分母・総量は未記載"
+          ]
+        },
+        {
+          "region": "lowlight",
+          "labels": [
+            "Q Brown9/Low"
+          ],
+          "raw_formula": "OX3%",
+          "ratio_parts": null,
+          "ratio_basis": null,
+          "addition_percent": null,
+          "percent_basis": null,
+          "denominator_group": null,
+          "grouping": null,
+          "developer_percent_label": 3,
+          "verified_developer_product_id": null,
+          "grams": null,
+          "duration_min": null,
+          "unknowns": [
+            "質量比／体積比・総量・放置時間は未記載"
+          ]
+        }
+      ],
+      "photos_copied": false
+    },
+    {
+      "id": "CASE03",
+      "title": "ペールピンク×スパイキー",
+      "source_id": "W_GOALD26",
+      "locator": "case03",
+      "data_role": "manufacturer_reference_not_local_outcome",
+      "initial_level": {
+        "root": 17,
+        "end": 15
+      },
+      "prepared_base_level": 18.5,
+      "after_level": 14,
+      "applications": [
+        {
+          "region": "all",
+          "labels": [
+            "BL P8",
+            "BL Clear (edition unresolved)"
+          ],
+          "raw_formula": "1:1 OX3%",
+          "ratio_parts": [
+            1,
+            1
+          ],
+          "ratio_basis": null,
+          "addition_percent": null,
+          "percent_basis": null,
+          "denominator_group": null,
+          "grouping": null,
+          "developer_percent_label": 3,
+          "verified_developer_product_id": null,
+          "grams": null,
+          "duration_min": null,
+          "unknowns": [
+            "質量比／体積比・総量・放置時間は未記載"
+          ]
+        }
+      ],
+      "photos_copied": false
+    },
+    {
+      "id": "CASE04",
+      "title": "ウェーブブルー×エンドカラー",
+      "source_id": "W_GOALD26",
+      "locator": "case04",
+      "data_role": "manufacturer_reference_not_local_outcome",
+      "initial_level": {
+        "all": 17
+      },
+      "prepared_base_level": 19,
+      "after_level": 13,
+      "applications": [
+        {
+          "region": "all",
+          "labels": [
+            "BL Clear (edition unresolved)",
+            "Q AquaBlue7",
+            "Q UltraViolet6"
+          ],
+          "raw_formula": "(3:1):5% OX3%",
+          "ratio_parts": null,
+          "ratio_basis": null,
+          "addition_percent": 5,
+          "percent_basis": null,
+          "denominator_group": null,
+          "grouping": {
+            "base_group": [
+              0,
+              1
+            ],
+            "base_ratio_parts": [
+              3,
+              1
+            ],
+            "additive_index": 2
+          },
+          "developer_percent_label": 3,
+          "verified_developer_product_id": null,
+          "grams": null,
+          "duration_min": null,
+          "unknowns": [
+            "OX濃度表記のみではOX／AC／クリームOXを同定しない",
+            "添加％の分母・総量は未記載"
+          ]
+        },
+        {
+          "region": "end_design_1",
+          "labels": [
+            "Q NavyBlue5"
+          ],
+          "raw_formula": "OX3%",
+          "ratio_parts": null,
+          "ratio_basis": null,
+          "addition_percent": null,
+          "percent_basis": null,
+          "denominator_group": null,
+          "grouping": null,
+          "developer_percent_label": 3,
+          "verified_developer_product_id": null,
+          "grams": null,
+          "duration_min": null,
+          "unknowns": [
+            "質量比／体積比・総量・放置時間は未記載"
+          ]
+        },
+        {
+          "region": "end_design_2",
+          "labels": [
+            "BL 4MT"
+          ],
+          "raw_formula": "OX3%",
+          "ratio_parts": null,
+          "ratio_basis": null,
+          "addition_percent": null,
+          "percent_basis": null,
+          "denominator_group": null,
+          "grouping": null,
+          "developer_percent_label": 3,
+          "verified_developer_product_id": null,
+          "grams": null,
+          "duration_min": null,
+          "unknowns": [
+            "質量比／体積比・総量・放置時間は未記載"
+          ]
+        }
+      ],
+      "photos_copied": false
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "I01",
+      "topic": "OX2・1000mL掲載差",
+      "sources": [
+        "W_Q25",
+        "W_BL",
+        "W_Q"
+      ],
+      "status": "coverage_difference_not_proven_discontinuation",
+      "resolution": "版ごとの掲載を保持。販売状況はメーカー確認待ち"
+    },
+    {
+      "id": "I02",
+      "topic": "2026製品版と旧染料図",
+      "sources": [
+        "FIOLE_PDF_01",
+        "W_NEWS"
+      ],
+      "status": "edition_mapping_unverified",
+      "resolution": "カラークリームNewや低アルカリへの旧図の適用を自動継承しない"
+    },
+    {
+      "id": "I03",
+      "topic": "添加率15%・30%・5%",
+      "sources": [
+        "W_GOALD26"
+      ],
+      "status": "denominator_not_explicit",
+      "resolution": "原文と百分率を保存。比率へ未変換"
+    },
+    {
+      "id": "I04",
+      "topic": "髪色Lab・実染料濃度",
+      "sources": [
+        "FIOLE_PDF_01",
+        "W_Q25",
+        "W_BL_CAT"
+      ],
+      "status": "not_available",
+      "resolution": "図・印刷見本から実毛のLabや化学比率を生成しない"
+    },
+    {
+      "id": "I05",
+      "topic": "OX名と実測濃度",
+      "sources": [
+        "W_BL",
+        "W_CREAM",
+        "W_Q25"
+      ],
+      "status": "numeric_name_not_assay",
+      "resolution": "製品名数字と実測H2O2濃度を別保存。実測欄null"
+    },
+    {
+      "id": "I06",
+      "topic": "顔ランドマークと髪際・cm",
+      "sources": [
+        "W_FACE"
+      ],
+      "status": "design_limitation",
+      "resolution": "顔メッシュとは別に髪際・頭部領域・尺度校正を保存"
+    }
+  ],
+  "db_design": [
+    [
+      "evidence_source / evidence_claim",
+      "出典・版・値の根拠",
+      "URL、取得日、版、頁、適用条件、明示値／解釈"
+    ],
+    [
+      "product / product_variant",
+      "製品と確認済色番",
+      "第1剤・第2剤・ブリーチ・希釈剤。色番はSKUと区別"
+    ],
+    [
+      "product_package / developer_profile",
+      "第2剤の製品差",
+      "OX／AC／クリーム、容量、名称数値と実測濃度を分離"
+    ],
+    [
+      "dye_axis / diagram_component",
+      "添付PDFの図上構成",
+      "15軸。実化学組成を同じ列に入れない"
+    ],
+    [
+      "chemical_component_measurement",
+      "実化学組成",
+      "実測値、単位、分母、分析法、測定条件。現状空"
+    ],
+    [
+      "application_rule",
+      "公式施術条件",
+      "対象製品・版・レベル、比率、基準量、不明条件"
+    ],
+    [
+      "reference_case / reference_application",
+      "メーカー掲載事例",
+      "外部参考データ。自店施術実績とは分離"
+    ],
+    [
+      "service_stage / hair_region",
+      "時点×部位",
+      "Before→ブリーチ後ベース→After。根元・中間・毛先"
+    ],
+    [
+      "diagnosis_observation",
+      "AIと美容師補正",
+      "追記のみ、尺度版、修正元、モデル版、未測定理由"
+    ],
+    [
+      "color_condition / lab_measurement",
+      "知覚色と測定条件",
+      "L*a*b*、白色点、観察者、照明、ICC、校正・不確かさ"
+    ],
+    [
+      "spectral_sample / color_comparison",
+      "分光と色差",
+      "波長別反射率、比較条件、ΔE00方式・係数・版"
+    ],
+    [
+      "recipe / recipe_application / mixture_line",
+      "予測と実施配合",
+      "工程・部位・薬剤ID・g/部数・添加率の分母を分離"
+    ],
+    [
+      "mixture_group / application_developer",
+      "入れ子配合と第2剤",
+      "(3:1):5%等、複数第2剤の製品IDと量"
+    ],
+    [
+      "outcome / model_version",
+      "自店実績とモデル",
+      "Before/After、評価、交絡条件、モデルと訓練採用判断"
+    ],
+    [
+      "geometry_annotation / design_scenario",
+      "顔・髪際・デザイン",
+      "座標系、姿勢、髪際別注釈、cm校正、前髪と長さ差"
+    ]
+  ]
+}

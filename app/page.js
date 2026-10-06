@@ -147,6 +147,7 @@ const [referencePreview, setReferencePreview] = useState(null);
   return (
     <main className="container">
       <div className="hero">
+        <a href="/fiole" className="fiole-entry">FIOLE薬剤資料・診断と配合記録 →</a>
         <p className="eyebrow">AI HAIR SIMULATION</p>
         <h1>HAIR MIRROR AI</h1>
         <p className="description">

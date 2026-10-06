@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "provider": "mediapipe-tasks-vision-1.0.1",
+  "hairModel": "hair_segmenter-float32-v1",
+  "faceModel": "face_landmarker-float16-v1",
+  "execution": "WORKER_CPU",
+  "realModelInference": true,
+  "viewportWidths": [
+    1194,
+    1024
+  ],
+  "physicalIOSDevice": false,
+  "realIndexedDB": true,
+  "originalBytesPreserved": true,
+  "largeImage": [
+    3200,
+    4000
+  ],
+  "exifOrientation6": true,
+  "hairPixels": 194389,
+  "faceLandmarks": 478,
+  "faceMetrics": {
+    "faceWidthRatio": 0.3202522947590852,
+    "faceHeightRatio": 0.3116492456803448,
+    "faceHeightWidthRatio": 1.2167178643354648,
+    "foreheadHeightRatio": null,
+    "foreheadWidthRatio": null,
+    "upperFaceRatio": null,
+    "midfaceRatio": 0.40508281151760883,
+    "lowerFaceRatio": 0.37077170446406293,
+    "cheekbonePosition": 0.42239389254333815,
+    "cheekboneWidthRatio": 0.3202522947590852,
+    "jawWidthRatio": 0.7784858747630247,
+    "chinPosition": 1.0000000000000002,
+    "browPosition": 0.22414548401832826,
+    "eyePosition": 0.33489235705646464,
+    "browEyeDistance": 0.11074687303813638,
+    "hairlinePosition": null,
+    "facialBalance": null,
+    "crown": null,
+    "parietal": null,
+    "temporal": null,
+    "occipital": null,
+    "headWidthRatio": null,
+    "headDepthRatio": null
+  },
+  "hairValues": {
+    "ROOT": {
+      "lightness": 27.467162253682307,
+      "hue": 52.34311312883551,
+      "chroma": 15.813423507056951,
+      "unevenness": 9.253131952358977
+    },
+    "MID": {
+      "lightness": 22.704270766030074,
+      "hue": 49.95443806140963,
+      "chroma": 16.524807025135217,
+      "unevenness": 12.417365566211108
+    },
+    "END": {
+      "lightness": 34.61476224995042,
+      "hue": 55.98946057994448,
+      "chroma": 23.920569191471344,
+      "unevenness": 10.991112214042372
+    }
+  },
+  "preservedAIOriginals": true,
+  "stylistCorrectionsPersisted": true,
+  "regionCorrectionPersisted": true,
+  "oldSourceBytesArchived": true,
+  "virtualCameraFourDirections": true,
+  "generationPosts": 0,
+  "externalPhotoRequests": [],
+  "pageErrors": []
+}

@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "realModelInference": true,
+  "provider": "mediapipe-tasks-vision-1.0.1",
+  "execution": "WORKER_CPU",
+  "faceModel": "face_landmarker-float16-v1",
+  "originalHairAndFacePreserved": true,
+  "stylistPriority": true,
+  "independentFiveDesigns": true,
+  "correctedShapePersists": true,
+  "realIndexedDB": true,
+  "reload": true,
+  "priorRevisionsPreserved": true,
+  "stalePlanningInvalidated": true,
+  "proposalsUseMeasuredValues": true,
+  "viewportWidths": [
+    1194,
+    1024
+  ],
+  "fiveVisibleInOneRow": true,
+  "physicalIOSDevice": false,
+  "designMethod": {
+    "engineVersion": "measurement-driven-design-rules-v1",
+    "method": "MEASUREMENT_DRIVEN_RULES",
+    "validation": "UNVALIDATED",
+    "goal": "curve",
+    "rankScore": 2.2041166803683856
+  },
+  "usedMetricKeys": [
+    "faceHeightWidthRatio",
+    "midfaceRatio",
+    "cheekbonePosition",
+    "lowerFaceRatio",
+    "jawWidthRatio",
+    "browEyeDistance",
+    "eyePosition"
+  ],
+  "currentPhotoCount": 4,
+  "generationPosts": 0,
+  "externalPosts": [],
+  "pageErrors": [],
+  "compareBounds": [
+    {
+      "width": 1194,
+      "boxes": [
+        {
+          "x": 247.25,
+          "y": 19.21875,
+          "width": 167.546875,
+          "right": 414.796875
+        },
+        {
+          "x": 426.796875,
+          "y": 19.21875,
+          "width": 167.546875,
+          "right": 594.34375
+        },
+        {
+          "x": 606.34375,
+          "y": 19.21875,
+          "width": 167.546875,
+          "right": 773.890625
+        },
+        {
+          "x": 785.890625,
+          "y": 19.21875,
+          "width": 167.546875,
+          "right": 953.4375
+        },
+        {
+          "x": 965.4375,
+          "y": 19.21875,
+          "width": 167.5625,
+          "right": 1133
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "boxes": [
+        {
+          "x": 216.734375,
+          "y": 277.21875,
+          "width": 140.453125,
+          "right": 357.1875
+        },
+        {
+          "x": 369.1875,
+          "y": 277.21875,
+          "width": 140.453125,
+          "right": 509.640625
+        },
+        {
+          "x": 521.640625,
+          "y": 277.21875,
+          "width": 140.453125,
+          "right": 662.09375
+        },
+        {
+          "x": 674.09375,
+          "y": 277.21875,
+          "width": 140.453125,
+          "right": 814.546875
+        },
+        {
+          "x": 826.546875,
+          "y": 277.21875,
+          "width": 140.453125,
+          "right": 967
+        }
+      ]
+    }
+  ]
+}

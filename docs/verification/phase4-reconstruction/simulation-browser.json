@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "transport": "MOCK_TRANSPORT_FIXTURE",
+  "realApiImageCount": 0,
+  "externalPosts": [],
+  "physicalIOSDevice": false,
+  "apiKeyConfigured": false,
+  "mockRequestCount": 8,
+  "mockAssetCount": 7,
+  "mockFailureCount": 1,
+  "childRetry": "D",
+  "correctedRegeneration": "B",
+  "oneSavedMainParentForAllChildren": true,
+  "commonStyleAndColor": true,
+  "distinctDesignParameters": true,
+  "legacyRawRevisionPreserved": true,
+  "gzipRevisionCount": 20,
+  "totalRevisions": 21,
+  "reload": true,
+  "selection": true,
+  "staleHandling": true,
+  "bounds": [
+    {
+      "width": 1194,
+      "boxes": [
+        {
+          "x": 230.25,
+          "y": 387.75,
+          "right": 403,
+          "bottom": 833.90625,
+          "width": 172.75
+        },
+        {
+          "x": 417,
+          "y": 387.75,
+          "right": 589.75,
+          "bottom": 833.90625,
+          "width": 172.75
+        },
+        {
+          "x": 603.75,
+          "y": 387.75,
+          "right": 776.5,
+          "bottom": 833.90625,
+          "width": 172.75
+        },
+        {
+          "x": 790.5,
+          "y": 387.75,
+          "right": 963.25,
+          "bottom": 833.90625,
+          "width": 172.75
+        },
+        {
+          "x": 977.25,
+          "y": 387.75,
+          "right": 1150,
+          "bottom": 833.90625,
+          "width": 172.75
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "boxes": [
+        {
+          "x": 197.734375,
+          "y": 334.75,
+          "right": 344.1875,
+          "bottom": 767.9375,
+          "width": 146.453125
+        },
+        {
+          "x": 358.1875,
+          "y": 334.75,
+          "right": 504.640625,
+          "bottom": 767.9375,
+          "width": 146.453125
+        },
+        {
+          "x": 518.640625,
+          "y": 334.75,
+          "right": 665.09375,
+          "bottom": 767.9375,
+          "width": 146.453125
+        },
+        {
+          "x": 679.09375,
+          "y": 334.75,
+          "right": 825.546875,
+          "bottom": 767.9375,
+          "width": 146.453125
+        },
+        {
+          "x": 839.546875,
+          "y": 334.75,
+          "right": 986,
+          "bottom": 767.9375,
+          "width": 146.453125
+        }
+      ]
+    }
+  ],
+  "pageErrors": []
+}

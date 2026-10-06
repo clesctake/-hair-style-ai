@@ -1,0 +1,4 @@
+{
+  "version": "2.0.0",
+  "tasks": [{ "label": "COLOR FUTURE AI: start Phase 4", "type": "process", "command": "node", "args": ["scripts/codespaces-start.mjs"], "problemMatcher": [] }]
+}

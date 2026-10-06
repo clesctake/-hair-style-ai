@@ -1,0 +1,299 @@
+{
+  "base_commit": "c38d79a0a7a0f09a457eb28b6b49f7046a6fed03",
+  "date": "2026-10-03",
+  "timezone": "Asia/Tokyo",
+  "node": "24.19.0",
+  "build": "passed_turbopack",
+  "typecheck": "passed_during_build",
+  "unit_tests": 40,
+  "browser_modes": [
+    "Next.js_with_IndexedDB",
+    "embedded_with_memory_store"
+  ],
+  "flow_steps_passed": 8,
+  "before_photos_tested": 4,
+  "ai_demo_observations": 27,
+  "preserved_library": {
+    "verified_variants": 149,
+    "source_items": 73,
+    "diagram_axes": 15
+  },
+  "browser_checks": [
+    "8_steps",
+    "photo_upload_before_goal_after",
+    "AI_original_and_stylist_override_separate",
+    "history",
+    "Lab_difference",
+    "verified_variants_and_trial_recipe",
+    "planned_and_used_conditions_separate",
+    "save_reload",
+    "actual_outcome_list",
+    "old_library_and_sources",
+    "390px_layout",
+    "stale_recipe_block"
+  ],
+  "photo_sample_demo": {
+    "route": "/fiole/demo",
+    "fictional_images": 3,
+    "image_origin": "pre_generated_sample",
+    "ai_values": "demo_fixture_not_photo_analysis",
+    "recipe_ratios": "trial_requires_stylist",
+    "illustrative_image_saved_as_actual_after": false,
+    "condition_or_recipe_change_hides_sample_image": true,
+    "browser_checks": "passed_in_Next_and_embedded_modes",
+    "layout_widths": [
+      320,
+      390,
+      1024
+    ]
+  },
+  "live_image_analysis": false,
+  "live_image_generation": false,
+  "scientifically_validated_recipe": false,
+  "github_written": false,
+  "data_sha256": {
+    "fiole_catalog.json": "b355af7db8a795633268dc0d1a705dea1426a8cf8c9f9478c4bb4681a7c70513",
+    "web_research.json": "25ca6f58684c0219d3c6616edf5e72d5cecc3df4afacc7e5ad88f384b61ff301"
+  },
+  "counseling_redesign": {
+    "visible_steps": 4,
+    "single_consultation_page": true,
+    "routes": [
+      "/fiole",
+      "/fiole/demo"
+    ],
+    "style": "ivory_beige_gold_brown",
+    "schema_unchanged": false,
+    "sources_unchanged": true,
+    "browser_script": "scripts/salon-ui.mjs",
+    "browser_modes": [
+      "Next.js_with_IndexedDB",
+      "embedded_with_memory_store"
+    ],
+    "checks_passed": [
+      "four_current_photo_inputs",
+      "AI_original_and_stylist_override",
+      "Lab_initially_hidden",
+      "stale_recipe_block",
+      "alternative_selection",
+      "illustrative_preview_invalidation",
+      "save_reload",
+      "actual_recipe_separate",
+      "actual_after_and_evaluation",
+      "149_variants_73_items",
+      "1024_768_390_320_no_overflow"
+    ],
+    "backward_compatible_optional_generation_field": true
+  },
+  "image_generation_integration": {
+    "api_route": "/api/generate",
+    "implementation": "real_OpenAI_images_edits",
+    "model": "gpt-image-2",
+    "current_and_reference_images": 3,
+    "browser_transport_tests": "passed_with_intercepted_responses",
+    "actual_OpenAI_calls": 0,
+    "live_success_verified": false,
+    "missing_key_in_work_environment": true,
+    "append_only_generation_history": true,
+    "stored_separately_from_actual_After": true,
+    "stale_image_response_discarded": true,
+    "github_preview_branch_created": false,
+    "github_write_error": "403 Resource not accessible by integration",
+    "production_modified": false,
+    "legacy_two_image_requests_preserved": true
+  },
+  "live_target_adjustment": {
+    "routes": [
+      "/fiole",
+      "/fiole/demo"
+    ],
+    "ui_controls": [
+      "target_lightness",
+      "target_saturation",
+      "target_redness",
+      "target_yellowness",
+      "target_mutedness",
+      "target_beige",
+      "target_transparency"
+    ],
+    "rendering": "real_Canvas_pixels_in_CIELAB",
+    "reference_scope": "reference_image_hair_mask",
+    "hair_segmentation": "manual_editable_mask",
+    "manual_circle_sampling": true,
+    "target_color_origin": "image_preview_estimate",
+    "calibration": "uncalibrated_srgb_image",
+    "preview_max_edge": 512,
+    "original_reference_preserved": true,
+    "confirmation_history_append_only": true,
+    "draft_requires_reconfirmation": true,
+    "confirmed_color_used_by_recipe": true,
+    "recipe_algorithm_version": "image-target-direction-demo-v2",
+    "recipe_ratios": "trial_requires_stylist",
+    "salon_level_auto_conversion": false,
+    "actual_After_separate": true,
+    "browser_modes": [
+      "Next.js_with_IndexedDB",
+      "embedded_with_memory_store"
+    ],
+    "browser_checks": [
+      "7_controls_change_hair_pixels_only",
+      "all_unselected_RGBA_preserved",
+      "paint_erase_undo",
+      "keyboard_mask_selection",
+      "masked_circle_sampling",
+      "empty_mask_disables_controls",
+      "reference_replacement_clears_mask",
+      "confirmed_target_recipe_connection",
+      "save_reload_and_immutable_history",
+      "1024_768_390_320_no_overflow"
+    ],
+    "adjusted_reference_sent_to_AI_endpoint": "passed_with_intercepted_response",
+    "actual_OpenAI_calls": 0,
+    "public_site_updated": false,
+    "automatic_hair_segmentation": false,
+    "mask_version": "hair-mask-v1",
+    "confirmation_version": "live-tone-confirmation-v2",
+    "image_algorithm_version": "image-lab-hair-tone-v2",
+    "sample_mask_origin": "demo_hand_traced",
+    "upload_mask_origin": "manual",
+    "full_frame_fallback": false,
+    "all_unselected_RGBA_preserved": true,
+    "feather_direction": "inward_only",
+    "mask_saved_with_confirmation": true,
+    "legacy_full_frame_records_preserved": true,
+    "mask_change_requires_reconfirmation": true
+  },
+  "diagnostic_display_rename": {
+    "display": "薬剤の吸い込みやすさ",
+    "internal_key": "porosity",
+    "range": [
+      1,
+      5
+    ],
+    "AI_and_stylist_records_unchanged": true,
+    "applied_to": [
+      "counseling",
+      "legacy_manual_records"
+    ]
+  },
+  "standardized_before_capture": {
+    "routes": [
+      "/fiole",
+      "/fiole/demo"
+    ],
+    "directions": [
+      "front",
+      "right",
+      "left",
+      "back"
+    ],
+    "camera": "real_getUserMedia",
+    "browser_test": "passed_Chromium_fake_media_device_not_iOS_hardware",
+    "actual_iOS_hardware_tested": false,
+    "live_quality_checks": "uncalibrated_pixel_heuristics_guide_head_proxy",
+    "not_assessed": [
+      "framing",
+      "lens_haze",
+      "color_cast",
+      "uneven_light",
+      "reflection"
+    ],
+    "raw_file_bytes_preserved": true,
+    "web_camera_original": "browser_full_frame_jpeg_not_sensor_raw",
+    "separate_display_image": true,
+    "stylist_NG_override_allowed": true,
+    "calibration": "uncalibrated_future_extension",
+    "cloud_storage": false,
+    "legacy_side_preserved": true,
+    "script": "scripts/camera-ui.mjs",
+    "checks_passed": [
+      "four_directions",
+      "retake",
+      "summary_direction_edit",
+      "camera_track_stop_on_close_and_review",
+      "original_file_bytes_exact",
+      "metadata_saved_and_reloaded",
+      "permission_denial",
+      "native_capture_fallback",
+      "embedded_explicit_sample_flow",
+      "1024_768_390_320_no_overflow"
+    ],
+    "regression_scripts_passed": [
+      "scripts/salon-ui.mjs",
+      "scripts/target-live-ui.mjs",
+      "scripts/hair-generation-ui.mjs"
+    ]
+  },
+  "face_style_color": {
+    "face_measurements": "fixed_MOCK_or_not_assessed_no_real_landmarks",
+    "bang_designs": 5,
+    "stylist_draft_and_decision_separate": true,
+    "individual_bang_generation": "not_connected",
+    "references": "STYLE_shape_COLOR_tone_separate",
+    "modes": [
+      "style_only",
+      "color_only",
+      "style_color"
+    ],
+    "confirmed_adjusted_COLOR_sent_to_final_generator": true,
+    "live_controls_sent_in_request_already_applied": true,
+    "selected_bang_parameters_sent_with_STYLE": true,
+    "STYLE_excluded_from_recipe_context": true,
+    "browser_script": "scripts/face-style-ui.mjs",
+    "browser_transport": "intercepted_not_real_generation",
+    "actual_OpenAI_calls": 0,
+    "actual_iOS_tested": false,
+    "original_uploaded_file_bytes_preserved": true
+  },
+  "base_making": {
+    "phase": 1,
+    "required_under": "unknown_or_stylist_set",
+    "finish_level_separate": true,
+    "under_tone_separate": true,
+    "zones": [
+      "root",
+      "mid",
+      "end"
+    ],
+    "melanin_and_artificial_separate": true,
+    "reference": "HAIRCAMP_BASIC_2025_qualitative_only",
+    "trust_levels": [
+      "MANUFACTURER",
+      "REFERENCE",
+      "EMPIRICAL",
+      "AI_ESTIMATE",
+      "STYLIST_CORRECTED",
+      "MOCK"
+    ],
+    "pre_lift_prediction": "unknown_or_stylist_expectation",
+    "on_colour_physical_prediction": "not_connected",
+    "legacy_trial_recipe_preserved": true,
+    "real_required_level_or_bleach_count_fabricated": false,
+    "two_stage_empirical_records": true,
+    "saved_results_append_only": true,
+    "stale_input_plan_invalidated": true,
+    "script": "scripts/base-making-ui.mjs",
+    "real_iOS_tested": false
+  },
+  "reference_ui": {
+    "formal_reference": "public/design/official-ui-reference-original.jpg",
+    "script": "scripts/reference-home-ui.mjs",
+    "modes_passed": [
+      "Next.js",
+      "embedded"
+    ],
+    "widths_passed": [
+      1448,
+      1194,
+      1024,
+      768,
+      390,
+      320
+    ],
+    "home_information_reduced": true,
+    "existing_modules_preserved": true,
+    "actual_OpenAI_calls": 0,
+    "actual_iOS_tested": false,
+    "prior_browser_checks": "historical_previous_layout"
+  }
+}

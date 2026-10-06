@@ -1,0 +1,17 @@
+{
+  "phase": "3",
+  "specVersion": "1.1",
+  "schemaVersion": "diagnosis-session-v1",
+  "unitTests": {
+    "status": "PASS",
+    "total": 110,
+    "existing": 83,
+    "new": 27
+  },
+  "typecheck": "PASS",
+  "productionBuild": "PASS",
+  "browser": "PASS",
+  "iosSafariPhysicalDevice": "UNVERIFIED",
+  "phase4": "NOT_STARTED",
+  "imageGenerationApiConnected": false
+}

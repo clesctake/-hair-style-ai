@@ -1,0 +1,16 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {simulationFixture} from './helpers/simulation-fixture.mjs';
+import {queueSimulationBatch} from '../src/lib/hair-simulation-session.ts';
+import {memoryJourneyStore} from '../src/lib/journey-store.ts';
+import {catalog} from '../src/lib/catalog.ts';
+import {encodeJourneyRevision,decodeJourneyRevision,storedJourneyVersion,JOURNEY_STORAGE_CODEC} from '../src/lib/journey-storage-codec.ts';
+const saved=async(simulation=true)=>memoryJourneyStore(catalog).save(simulation?queueSimulationBatch(simulationFixture()):simulationFixture());
+test('new simulation revisions roundtrip exactly through gzip, including original images and analysis',async()=>{const j=await saved(),encoded=await encodeJourneyRevision(j);assert.equal(encoded.storageCodec,JOURNEY_STORAGE_CODEC);assert.ok(encoded.payload.length<encoded.uncompressedBytes);assert.deepEqual(await decodeJourneyRevision(encoded),j);});
+test('old raw revisions are read without rewriting or migration',async()=>{const j=await saved(false),before=JSON.stringify(j);assert.deepEqual(await decodeJourneyRevision(j),j);assert.equal(JSON.stringify(j),before);assert.equal((await encodeJourneyRevision(j)).storageCodec,undefined);});
+test('unsupported compression takes the reversible raw fallback',async()=>{const j=await saved(),r=await encodeJourneyRevision(j,false);assert.equal(r.storageCodec,undefined);assert.deepEqual(r,j);});
+test('corrupt gzip is rejected while the stored bytes stay intact',async()=>{const encoded=await encodeJourneyRevision(await saved());encoded.payload[0]=0;const before=new Uint8Array(encoded.payload);await assert.rejects(decodeJourneyRevision(encoded),/破損/);assert.deepEqual(encoded.payload,before);});
+test('decompressed bytes must match the stored SHA-256 and declared length',async()=>{const encoded=await encodeJourneyRevision(await saved());await assert.rejects(decodeJourneyRevision({...encoded,sha256:'0'.repeat(64)}),/整合性/);await assert.rejects(decodeJourneyRevision({...encoded,uncompressedBytes:encoded.uncompressedBytes+1}),/整合性/);});
+test('future codecs and schema versions are rejected without discarding the source',async()=>{const encoded=await encodeJourneyRevision(await saved());assert.throws(()=>storedJourneyVersion({...encoded,storageCodec:'journey-gzip-v9'}),/未対応/);await assert.rejects(decodeJourneyRevision({...encoded,dataSchemaVersion:'diagnosis-session-v9'}),/未対応/);});
+test('revision and session ID mismatches are rejected instead of overwriting other records',async()=>{const encoded=await encodeJourneyRevision(await saved());await assert.rejects(decodeJourneyRevision({...encoded,version:encoded.version+1}),/保存版/);await assert.rejects(decodeJourneyRevision({...encoded,id:'other'}),/カルテID/);});
+test('decompression size limits protect the original compressed record',async()=>{const encoded=await encodeJourneyRevision(await saved());await assert.rejects(decodeJourneyRevision({...encoded,uncompressedBytes:257*1024*1024}),/未対応|破損/);await assert.rejects(decodeJourneyRevision({...encoded,uncompressedBytes:10}),/破損/);});

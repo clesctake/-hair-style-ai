@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "viewportWidths": [
+    1194,
+    1024
+  ],
+  "physicalIOSDevice": false,
+  "realIndexedDB": true,
+  "preservedLegacyRevision": true,
+  "commonSessionIdMatchesRecordId": true,
+  "persistedStylistCorrection": true,
+  "collapsedFeatureRegistry": true,
+  "generationRequests": 0,
+  "capabilityRequests": 6,
+  "pageErrors": [],
+  "revisions": 2
+}

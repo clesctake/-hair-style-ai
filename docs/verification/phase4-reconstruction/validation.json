@@ -1,0 +1,26 @@
+{
+  "unitTests": {
+    "status": "PASS",
+    "total": 153,
+    "existing": 110,
+    "added": 43,
+    "failed": 0
+  },
+  "typecheck": "PASS",
+  "build": "PASS",
+  "nextVersion": "16.3.8",
+  "realModelPhase3Regression": "PASS",
+  "phase4Ui": "PASS_MOCK_TRANSPORT_ONLY",
+  "realImageGenerationRequests": 0,
+  "realImageCount": 0,
+  "apiKeyPresent": false,
+  "physicalIOSDevice": "UNVERIFIED",
+  "phase4_1": "ON_HOLD",
+  "phase5": "NOT_STARTED",
+  "storageLimitObserved": true,
+  "browserFixtureImageSize": [
+    160,
+    240
+  ],
+  "largePngRevisionStorageCase": "FAILED_WITH_QUOTA_WARNING_NO_FURTHER_GENERATION"
+}

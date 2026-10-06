@@ -1,0 +1,47 @@
+// Work-mode browser verification; requires the Playwright runtime and a local Chromium executable.
+import assert from 'node:assert/strict';
+import {readFileSync,mkdirSync} from 'node:fs';
+import {spawn} from 'node:child_process';
+import {resolve,dirname} from 'node:path';
+import {createServer} from 'node:http';
+const root=resolve('..'),{chromium}=await import('/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs');
+const server=spawn(process.execPath,['node_modules/next/dist/bin/next','start','--hostname','127.0.0.1','--port','3122'],{stdio:['ignore','pipe','pipe']});let logs='';server.stdout.on('data',s=>logs+=s);server.stderr.on('data',s=>logs+=s);
+const inline=createServer((req,res)=>{res.setHeader('Content-Type','text/html');res.end(readFileSync(root+'/demo-build/salon-preview.html'));});await new Promise(r=>inline.listen(3192,'127.0.0.1',r));
+const browser=await chromium.launch({headless:true,executablePath:root+'/browser-tools/chromium',args:['--no-sandbox','--disable-dev-shm-usage','--no-zygote','--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader','--disable-gpu-sandbox','--use-fake-device-for-media-stream','--use-fake-ui-for-media-stream']});
+const screens=resolve('validation-screens');mkdirSync(screens,{recursive:true});const errors=[],page=await browser.newPage({viewport:{width:1024,height:1366}});page.on('pageerror',e=>errors.push(e.message));
+const font=resolve(root,'browser-tools/node_modules/@fontsource/noto-sans-jp/400.css'),fontCss=readFileSync(font,'utf8').replace(/url\(['"]?(\.\/[^)'" ]+)['"]?\)/g,(_match,path)=>`url(data:font/woff2;base64,${readFileSync(resolve(dirname(font),path)).toString('base64')})`);await page.addInitScript(css=>{document.addEventListener('DOMContentLoaded',()=>{const style=document.createElement('style');style.textContent=css;document.head.append(style);});},fontCss);
+try{
+ let ready=false;for(let i=0;i<100;i++){try{if((await fetch('http://127.0.0.1:3122/fiole/demo')).ok){ready=true;break;}}catch{}await new Promise(r=>setTimeout(r,200));}assert.ok(ready,logs);
+ await page.addInitScript(()=>{window.testStreams=[];const native=navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);navigator.mediaDevices.getUserMedia=async options=>{const stream=await native(options);window.testStreams.push(stream);return stream;};});
+ await page.goto('http://127.0.0.1:3122/fiole/demo');await page.getByRole('button',{name:'新しい診断',exact:true}).click();
+ await page.getByRole('button',{name:'正面の写真を追加',exact:true}).click();await page.getByRole('button',{name:'カメラで撮影',exact:true}).waitFor();assert.equal(await page.getByText('写真ライブラリから選択',{exact:true}).count(),1);
+ await page.getByRole('button',{name:'カメラで撮影',exact:true}).click();await page.waitForFunction(()=>document.querySelector('video')?.videoWidth>0);assert.equal(await page.locator('video').evaluate(v=>v.playsInline&&v.muted),true);
+ await page.getByRole('img',{name:'正面の頭頂・顎・幅・中央線・肩の撮影ガイド',exact:true}).waitFor();await page.screenshot({path:screens+'/camera-ipad.png',fullPage:true});
+ await page.getByRole('button',{name:'撮影を閉じる',exact:true}).click();assert.equal(await page.evaluate(()=>window.testStreams.every(s=>s.getTracks().every(t=>t.readyState==='ended'))),true);
+ await page.getByRole('button',{name:'4方向を続けて撮影 →',exact:true}).click();
+ for(const [index,label] of ['正面','右側','左側','後ろ'].entries()){
+  await page.getByRole('heading',{name:`${index+1} / 4　${label}`,exact:true}).waitFor();await page.waitForFunction(()=>document.querySelector('video')?.videoWidth>0);
+  await page.getByRole('button',{name:'撮影する',exact:true}).click();await page.getByAltText(label+'の撮影後確認',{exact:true}).waitFor();
+  if(index===0){assert.equal(await page.evaluate(()=>window.testStreams.every(s=>s.getTracks().every(t=>t.readyState==='ended'))),true);await page.getByRole('button',{name:'撮り直す',exact:true}).click();await page.waitForFunction(()=>document.querySelector('video')?.videoWidth>0);await page.getByRole('button',{name:'撮影する',exact:true}).click();}
+  await page.getByRole('button',{name:'この写真を使う →',exact:true}).click();
+ }
+ await page.getByRole('heading',{name:'4方向の写真を確認',exact:true}).waitFor();assert.equal(await page.locator('.salon-capture-summary img').count(),4);
+ await page.getByRole('button',{name:'確認・撮り直し',exact:true}).nth(1).click();await page.getByRole('button',{name:'この写真を使う →',exact:true}).click();await page.getByRole('heading',{name:'4方向の写真を確認',exact:true}).waitFor();
+ await page.getByRole('button',{name:'この4枚を登録する →',exact:true}).click();assert.equal(await page.locator('.salon-current-photos img').count(),4);
+ await page.getByRole('button',{name:'デモ診断を表示',exact:true}).click();await page.getByLabel('希望する髪色',{exact:true}).fill('赤みを抑えたベージュ');await page.getByRole('button',{name:'シミュレーションとレシピへ →',exact:true}).click();await page.getByRole('button',{name:'相談を保存する →',exact:true}).click();await page.getByRole('status').filter({hasText:'第1版'}).waitFor();
+ const stored=await page.evaluate(()=>new Promise((resolve,reject)=>{const r=indexedDB.open('hair-mirror-color-journey-v1',1);r.onsuccess=()=>{const db=r.result,q=db.transaction('records').objectStore('records').getAll();q.onsuccess=()=>{resolve(q.result.at(-1).revisions.at(-1));db.close();};q.onerror=reject;};r.onerror=reject;}));
+ assert.deepEqual(stored.photos.map(p=>p.view),['front','right','left','back']);for(const p of stored.photos){assert.equal(p.capture.source,'web_camera');assert.equal(p.capture.original.representation,'browser_video_frame_jpeg');assert.equal(p.capture.original.colourProcessing,'none_app_applied');assert.equal(p.capture.calibration.status,'uncalibrated');assert.ok(p.capture.guide.crop);assert.ok(p.capture.original.width>=p.width);assert.equal(p.capture.quality.checks.color_cast.state,'not_assessed');assert.equal(p.capture.accepted.qualityOverride,p.capture.quality.grade!=='GOOD');}
+ await page.reload();await page.getByRole('button',{name:'過去の診断',exact:true}).click();await page.locator('.salon-recent').click();await page.getByAltText('右側',{exact:true}).waitFor();assert.equal(await page.locator('.salon-current-photos img').count(),4);
+ // Original file bytes are retained despite display JPEG compression and post-import checks.
+ await page.getByRole('button',{name:'新しい診断',exact:true}).click();const fixture=resolve('public/demo/fictional-current-display-v1.jpg');await page.getByLabel('正面をアップロード',{exact:true}).setInputFiles(fixture);await page.getByRole('button',{name:'この写真を使う →',exact:true}).click();await page.getByRole('button',{name:'デモ診断を表示',exact:true}).click();await page.getByLabel('希望する髪色',{exact:true}).fill('ベージュ');await page.getByRole('button',{name:'シミュレーションとレシピへ →',exact:true}).click();await page.getByRole('button',{name:'相談を保存する →',exact:true}).click();await page.getByRole('status').filter({hasText:'第1版'}).waitFor();
+ const imported=await page.evaluate(()=>new Promise(resolve=>{const r=indexedDB.open('hair-mirror-color-journey-v1',1);r.onsuccess=()=>{const db=r.result,q=db.transaction('records').objectStore('records').getAll();q.onsuccess=()=>{resolve(q.result.find(v=>v.revisions.at(-1).photos.length===1).revisions.at(-1).photos[0]);db.close();};};}));assert.equal(imported.capture.original.dataUrl.split(',')[1],readFileSync(fixture).toString('base64'));assert.equal(imported.capture.capturedAt,null);assert.equal(imported.capture.source,'library');
+ // Permission failure is truthful and native fallback retains capture=environment.
+ await page.getByRole('button',{name:'新しい診断',exact:true}).click();await page.evaluate(()=>{navigator.mediaDevices.getUserMedia=async()=>{throw new DOMException('denied','NotAllowedError');};});await page.getByRole('button',{name:'4方向を続けて撮影 →',exact:true}).click();await page.getByRole('alert').filter({hasText:'許可されていません'}).waitFor();assert.equal(await page.getByLabel('端末カメラで撮る',{exact:true}).getAttribute('capture'),'environment');
+ await page.getByRole('button',{name:'サンプルで撮影の流れを見る',exact:true}).click();await page.getByText('架空写真による操作デモ · カメラ映像ではありません',{exact:true}).waitFor();
+ for(const width of [1024,768,390,320]){await page.setViewportSize({width,height:1000});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`camera overflow ${width}`);if(width===390)await page.screenshot({path:screens+'/camera-iphone.png',fullPage:true});}
+ await page.getByRole('button',{name:'撮影を閉じる',exact:true}).click();
+ // Embedded preview uses a clearly labelled sample flow, not a pretend camera feed.
+ await page.goto('http://127.0.0.1:3192');const ui=page.frameLocator('iframe');await ui.getByRole('button',{name:'4方向を続けて撮影 →',exact:true}).click();await ui.getByRole('button',{name:'サンプルで撮影の流れを見る',exact:true}).click();
+ for(const label of ['正面','右側','左側','後ろ']){await ui.getByRole('button',{name:'撮影する',exact:true}).click();await ui.getByAltText(label+'の撮影後確認',{exact:true}).waitFor();await ui.getByRole('button',{name:'この写真を使う →',exact:true}).click();}await ui.getByRole('button',{name:'この4枚を登録する →',exact:true}).click();assert.equal(await ui.locator('.salon-current-photos img').count(),4);assert.deepEqual(errors,[]);
+ console.log(JSON.stringify({passed:true,camera:'Chromium fake device; not real iOS hardware',four_directions:true,retake:true,summary_edit:true,track_cleanup:true,original_file_bytes:true,quality_data_saved:true,reload:true,permission_fallback:true,inline_sample_flow:true,widths:[1024,768,390,320]}));
+}finally{await browser.close();server.kill('SIGTERM');await new Promise(r=>inline.close(r));}
