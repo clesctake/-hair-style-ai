@@ -33,7 +33,6 @@ const [error, setError] = useState("");
       formData.append("referenceImage", goalImage);
 
       formData.append(
-       formData.append(
   "request",
   `1枚目は現在の人物写真、2枚目は目標ヘアスタイルの参考写真です。
 

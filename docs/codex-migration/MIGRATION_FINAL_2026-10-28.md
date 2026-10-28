@@ -1,0 +1,8 @@
+# Work source migration — PARTIAL
+Source: Sites 9fa76946d9220ca75aa942dd83e7b4f881370369; recovery archive SHA256 c6079ec3846c838686038c8f8a9eb15838fe5721fada315cd6a027cb2dcd9cb6.
+646 original source/assets files migrated. 111 files held: raster images, 2 JSON files with embedded images, and the old Sites deployment binding. Public rights are not established by design approval. See ASSET_HOLDS. Private original archive is retained; do not substitute or redesign masters.
+MediaPipe Apache-2.0 assets and Noto SIL OFL fonts retain notices. 372 font blobs were transferred and verified before this commit. No customer session DB or runtime secrets included. Synthetic credential placeholders in tests are not live credentials.
+The public tree is not yet a complete runnable application: two held JSON imports and image assets require rights-cleared private restoration.
+Previous migration run: Node24.22.1; offline npm ci failed ENOTCACHED (yocto-queue); typecheck/lint missing tsc/eslint; prebuild missing @mediapipe/tasks-vision. Sequential original-private-source tests: 421 reported,419 PASS,2 test-file failures (after-review,preview-bootstrap) due to absent dependencies. 439 PASS not reproduced. Workspace maintenance removed local logs; these results are previous run evidence, not a fresh test of this commit.
+Page1–4 real browser, live image API, save/reload and PNG/iPhone/iPad remain UNVERIFIED. No paid API call. No deployment or main/phase-4 changes.
+Next: restore exact dependencies in an authorized environment; clear asset rights; restore originals privately; rerun all tests/typecheck/lint/build and browser checks. Do not deploy or merge this partial staging tree.

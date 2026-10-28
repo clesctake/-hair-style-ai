@@ -1,0 +1,16 @@
+'use client';
+import SiteSignIn from './site-sign-in';
+import {requireSiteUser,SiteSignInRequired} from '@/lib/site-auth';
+import {useState} from 'react';
+import type {Photo} from '@/lib/journey';
+import {readCurrentPhoto} from '@/lib/current-photo';
+import {arrangePhotoBatch,commitPhotoBatch,batchDirections,type BatchPhoto} from '@/lib/photo-batch';
+export default function CurrentPhotoBatch({busy,onCommit}:{busy:boolean;onCommit:(photos:Photo[])=>boolean|void}){
+ const [items,setItems]=useState<BatchPhoto[]>([]),[working,setWorking]=useState(false),[error,setError]=useState(''),[signInRequired,setSignInRequired]=useState(false);
+ async function upload(files:File[]){if(working)return;setWorking(true);setError('');try{if(files.length>4)throw Error('一度に1〜4枚を選択してください。');const input=[];
+  for(const f of files){const bytes=await f.arrayBuffer(),hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),v=>v.toString(16).padStart(2,'0')).join('');input.push({photo:await readCurrentPhoto(f,'front',{source:'library'}),hash});}
+  const sorted=input.toSorted((a,b)=>a.hash.localeCompare(b.hash));setItems(arrangePhotoBatch(sorted,[]));
+  try{await requireSiteUser();setSignInRequired(false);const r=await fetch('/api/photos/directions',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({photos:sorted.map(x=>({id:x.photo.id,image:x.photo.dataUrl}))}),signal:AbortSignal.timeout(65000)}),v=await r.json();if(r.status===401){setSignInRequired(true);}if(!r.ok)throw Error(v.error);setItems(arrangePhotoBatch(sorted,v.photos));}catch(e){if(e instanceof SiteSignInRequired)setSignInRequired(true);setError(e instanceof Error?e.message:'AI判定失敗。写真は保持しています。');}
+ }catch(e){setError(e instanceof Error?e.message:'写真を読み込めません。');}finally{setWorking(false);}}
+ return <div className="salon-capture-start"><label className="salon-soft-button">{working?'方向を判定しています…':'写真をまとめて追加（1〜4枚）'}<input hidden type="file" multiple accept="image/*" disabled={busy||working} onChange={e=>{const f=Array.from(e.target.files??[]);if(f.length)void upload(f);e.target.value='';}}/></label>{items.length>0&&<div className="salon-current-photos">{items.map(x=><div className="salon-photo" key={x.photo.id}><img src={x.photo.dataUrl} alt="方向確認中の写真" style={{width:'100%',objectFit:'contain'}}/><small>{x.duplicate?'重複写真・登録対象外':x.direction?'AI推定・美容師確認':'確認が必要'} · {x.guess.reason}</small><select aria-label={`撮影方向 ${x.photo.name}`} disabled={working||x.duplicate} value={x.direction} onChange={e=>setItems(items.map(i=>i.photo.id===x.photo.id?{...i,direction:e.target.value as BatchPhoto['direction']}:i))}><option value="">方向を確認してください</option>{batchDirections.map(d=><option key={d} value={d}>{d.toUpperCase()}</option>)}</select><button type="button" disabled={working} onClick={()=>setItems(items.filter(i=>i.photo.id!==x.photo.id))}>この写真を外す</button></div>)}</div>}{items.length>0&&<button type="button" className="salon-soft-button" disabled={busy||working} onClick={()=>{try{if(onCommit(commitPhotoBatch(items))!==false){setItems([]);setError('');}}catch(e){setError(e instanceof Error?e.message:'方向を確認してください。');}}}>方向を確認して登録</button>}{error&&<p role="alert">{error}{signInRequired&&<> <SiteSignIn/> ログイン前に手動で方向を確認して登録すると、写真を保持して戻れます。</>}</p>}<small>方向判定のため写真をOpenAIへ送信します。アプリの公開領域やログには保存しません。</small></div>;
+}

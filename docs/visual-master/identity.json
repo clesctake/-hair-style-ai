@@ -1,0 +1,11 @@
+{
+  "libraryFileId": "libfile_63c0ea11d5008191895e67325f19cf5d",
+  "fileId": "file_0000000039ec81fd894d833f5e3b914b",
+  "sha256": "1a471e32cab61b20226406bc4872bd84fc3372912a495c311d24108cab96f670",
+  "approvedPage": "LEFT: 1. COUNSELING",
+  "canonicalWidth": 520,
+  "canonicalHeight": 1024,
+  "sourceCommit": "b94d6b219c33de8b8f7f3e8d48bf38a578f09fec",
+  "assetOrigins": "MOCK: photos extracted from approved design image, not user captures or API generation",
+  "scope": "PAGE_1_ONLY"
+}

@@ -1,0 +1,11 @@
+import {spawnSync} from 'node:child_process';
+import {mkdir,rename,cp} from 'node:fs/promises';
+import {build} from 'esbuild';
+const client=spawnSync(process.execPath,['scripts/build-counseling-demo.mjs'],{stdio:'inherit'});
+if(client.status!==0)process.exit(client.status??1);
+await rename('dist','counseling-site-build-tmp');
+await mkdir('dist/server',{recursive:true});
+await rename('counseling-site-build-tmp','dist/client');
+await build({entryPoints:['site-worker/index.ts'],bundle:true,platform:'neutral',format:'esm',target:'es2022',outfile:'dist/server/index.js',tsconfig:'tsconfig.json'});
+await mkdir('dist/.openai',{recursive:true});await cp('.openai/hosting.json','dist/.openai/hosting.json');
+console.log(JSON.stringify({runtime:'WORKER',scope:'PAGE_1_PAGE_2_AND_PAGE_3',generation:'REQUIRES_SERVER_API_KEY'}));

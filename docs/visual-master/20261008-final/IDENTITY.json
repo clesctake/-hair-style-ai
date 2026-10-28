@@ -1,0 +1,164 @@
+{
+  "visualMasterId": "file_00000000959c8206b6431a850bae77ca",
+  "libraryFileId": "libfile_7c3e678f451481918b977c042deef6b1",
+  "name": "美容室AIカウンセリング画面.png",
+  "createdAt": "2026-10-08T00:52:34.211651Z",
+  "width": 1086,
+  "height": 1448,
+  "sha256": "6fc2ad34686d617411463e3366b810c840233d96c2049c02db36c2b88e0507af",
+  "scope": "PAGE_1_COUNSELING_ONLY",
+  "previousMaster": "retained as historical record; not the rendering reference",
+  "photoAssets": "cropped unchanged from this master; MOCK; not current-person generated images",
+  "crops": {
+    "brand-mark": [
+      39,
+      4,
+      78,
+      43
+    ],
+    "current-front": [
+      34,
+      169,
+      218,
+      425
+    ],
+    "current-front-small": [
+      229,
+      169,
+      295,
+      231
+    ],
+    "current-side": [
+      302,
+      169,
+      367,
+      231
+    ],
+    "current-back": [
+      230,
+      263,
+      367,
+      347
+    ],
+    "style-front": [
+      395,
+      169,
+      585,
+      425
+    ],
+    "style-front-small": [
+      601,
+      169,
+      690,
+      231
+    ],
+    "style-back": [
+      601,
+      263,
+      690,
+      346
+    ],
+    "color-front": [
+      724,
+      169,
+      915,
+      374
+    ],
+    "color-back": [
+      925,
+      169,
+      1052,
+      245
+    ],
+    "color-side": [
+      925,
+      254,
+      1052,
+      324
+    ],
+    "color-texture": [
+      724,
+      379,
+      906,
+      423
+    ],
+    "face-mock": [
+      662,
+      486,
+      883,
+      786
+    ],
+    "final-front": [
+      35,
+      1227,
+      162,
+      1393
+    ],
+    "final-side": [
+      175,
+      1227,
+      280,
+      1391
+    ],
+    "final-back": [
+      294,
+      1227,
+      401,
+      1391
+    ],
+    "final-bang": [
+      414,
+      1227,
+      497,
+      1330
+    ],
+    "final-frame": [
+      505,
+      1227,
+      588,
+      1330
+    ],
+    "final-side-detail": [
+      595,
+      1227,
+      677,
+      1330
+    ],
+    "final-back-detail": [
+      686,
+      1227,
+      769,
+      1330
+    ],
+    "bang-a": [
+      38,
+      965,
+      222,
+      1123
+    ],
+    "bang-b": [
+      245,
+      965,
+      429,
+      1123
+    ],
+    "bang-c": [
+      451,
+      965,
+      635,
+      1123
+    ],
+    "bang-d": [
+      658,
+      965,
+      842,
+      1123
+    ],
+    "bang-e": [
+      865,
+      965,
+      1049,
+      1123
+    ]
+  }
+}

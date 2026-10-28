@@ -1,0 +1,557 @@
+[
+  {
+    "path": ".openai/hosting.json",
+    "sha256": "d715309103e0bac067527b8e86f4516e923bf388ffa14ab2df3debfa6635e14c",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "docs/visual-master/20261008-final/COUNSELING_VISUAL_MASTER.png",
+    "sha256": "6fc2ad34686d617411463e3366b810c840233d96c2049c02db36c2b88e0507af",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "docs/visual-master/20261013-page4-color/COLOR_MODAL_MASTER.jpeg",
+    "sha256": "ee54dc359ef4dc41e7e0bf40d017cdbfa1d5af32199507c4291c9f89bff13c08",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "docs/visual-master/20261013-page4-color/PAGE4_MASTER.jpeg",
+    "sha256": "fbdb698e701fd71a04999981ddea6b18215c6d9150306774cd7980ae8cea47bf",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "docs/visual-master/APPROVED_THREE_PAGES.png",
+    "sha256": "1a471e32cab61b20226406bc4872bd84fc3372912a495c311d24108cab96f670",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "docs/visual-master/PAGE_1_COUNSELING.png",
+    "sha256": "2461647f60a839cee4e3b1e125e202ecc60f3368d671a5637789a3a87c055f50",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "docs/visual-master/card4-20261008/APPROVED_CARD_4_REFERENCE.jpeg",
+    "sha256": "fdaab080bf6e7cdd186ac82d8b59cace6d33f98437431bf006b6142ee9c3d2b6",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "docs/visual-master/page2/PRO_DESIGN_VISUAL_MASTER.png",
+    "sha256": "c49c761c2f91fab954b860fd08002ebd0708ef7ec7b48eca22fafc15e2a33dcb",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "docs/visual-master/page3/AFTER_SUPPORT_VISUAL_MASTER.jpeg",
+    "sha256": "7e08f5b3d4e5fea609e299818ba767e07cd3421a56d207ef9ee177907260e2b1",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/back.jpg",
+    "sha256": "15b7e5766c1c7ded800d4985a789320f912c4554ee7235c5393fdf68442bfe6d",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/bang-0.jpg",
+    "sha256": "801410a197cd28288de621995fc9016cc9a4e662905ad103ec5d25c1e340be60",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/bang-1.jpg",
+    "sha256": "1046897ebeefc7fa442386dd56d1779ca64f71fe949ca4aebf3e80b5f331de4d",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/bang-2.jpg",
+    "sha256": "ea92a5c9524410720d38da79672f5a734613dd320550a8364ceab4b996fe868c",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/bang-3.jpg",
+    "sha256": "03d98490f5f02db3024a678c92749aa46f2e2c0048c70216ad6302cd39e65a64",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/bang-4.jpg",
+    "sha256": "e057a96b754898819e632dd27149a38504f36a77768c2575e5e6e65d69a1e62d",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/face.jpg",
+    "sha256": "d84abcfd31e27094adb5a472d8322f42a03a419fa17e6ed0c2ae300e968ecaed",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/fade-0.jpg",
+    "sha256": "f05d087cc5a5f36443b7b1e37206353ac939be25452c8be42cae15921fc69fc5",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/fade-1.jpg",
+    "sha256": "3767b73587fadbba55525d27b4082db5da7d094b2f571b6e00791f7c53c94821",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/fade-2.jpg",
+    "sha256": "cc718fee1dc207e0bb405fbaebed0394f3f6a13f895f9975b8e371b585752f68",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/fade-3.jpg",
+    "sha256": "3809c22c88212ab3e9c245972c509cc2e9fcc9b5daa0f5909256a3666ba82fe6",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/frame.jpg",
+    "sha256": "757b1031e71d927964a43391be38146eed437f88122a96102212e21b985741b8",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/front.jpg",
+    "sha256": "5797d5612961f1dca483d8eec37238d391b54397223856922f94228a969f9e8f",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/hair-detail.jpg",
+    "sha256": "41b8d2d0741559471aec5648220d463561a8878afcb72bb8459d2c5c69515f20",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/makeup-0.jpg",
+    "sha256": "5e35a7888f88f47ef34b3236b7d2b74ce264da5df0d160cb50d0289082ce429e",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/makeup-1.jpg",
+    "sha256": "365f5c788a893354f07de1787a8811981bc26f7eb88810ee482eb011923cab58",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/makeup-2.jpg",
+    "sha256": "ab11f6fb95e07a2dd1a58033c8865082a1f4e464fe8f111607ec6794c8f323f2",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/next-0.jpg",
+    "sha256": "4b5e47687cf8c30d14396d6f56535b7314e825caabe71d93d45645fd89792a67",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/next-1.jpg",
+    "sha256": "22bffe383c76f1f194b4053e60126389fde17828319a1b08341273d463d477bb",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/next-2.jpg",
+    "sha256": "50a83d676b19f206fc470ed7eebd08679754f9d814749d3b379d9068d84acf8b",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/side.jpg",
+    "sha256": "1021c5a843d07c846e949d09468f8a1cd6af6945145bdaf49a04097695d93fde",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/after-support-master/texture.jpg",
+    "sha256": "3e4af364a578401b875f750c32a2f07c400ebe69c376b199a33ce26e762dfff5",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/bang-a.png",
+    "sha256": "34989d1e920aa55fdf9f65dd1dcf8ab6eeb2f59ae0f998e013b8aef994173eaa",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/bang-b.png",
+    "sha256": "4df77b8807353e6205af3e75e287c1490330f0c5c43bab01a5b4344f30355796",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/bang-c.png",
+    "sha256": "d88e3eaff33149f88d2804bf0e7790931ebb3f439c598afd3d4cba6dc7d8d440",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/bang-d.png",
+    "sha256": "39a5c3a929cd6c1bea06597ceeea1477175b571a019f6fbff5e476e5d9f1e6ab",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/bang-e.png",
+    "sha256": "9aa7585c641d48281b010d2d4003388307c7cc1768d30b27ad7dc211a777658b",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/brand-mark.png",
+    "sha256": "c6605f217a16fe7440afb0f090a6ebfafb2d1cd1b4a7cc5db27812c012acddb8",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/color-back.png",
+    "sha256": "a4b30657f56f5ca92ed46db61f9547d12937db78bb080be97c51bbd35e7b6e69",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/color-front.png",
+    "sha256": "8c9279a4dc08110c015fc09209dd080531e13e2630d43efbec7c6e613ee4bded",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/color-side.png",
+    "sha256": "707ca5d18c9b6620270abe8ce0f588946867e6c0ccdda14f89cc568951234696",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/color-texture.png",
+    "sha256": "65e0afc6f486e4b7bf123b15e8f5cc51cce0d1254a439e946d606e73170823d8",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/current-back.png",
+    "sha256": "a2ba263a4639edc39b8e537e6479845ae8ca636ea5c30fb7b4ba7f86da203e37",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/current-front-small.png",
+    "sha256": "e7d63240a7e1d218137f138dfb85d6c588b43369766630ab39efab4d8a8fcd35",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/current-front.png",
+    "sha256": "43b95e565242b4fbdb4de2982b4cd5ffc70410348d927ddf1f5c406f52b7835a",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/current-side.png",
+    "sha256": "53ec5f29bab52e1a8eccebdb70d849c168f8c52fd3cb347f35a2f3627066b167",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/face-mock.png",
+    "sha256": "165d0dc7abf86214c5f22efe66bed134539ffe87f473c1b483984cc2d386fc98",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/final-back-detail.png",
+    "sha256": "5afe64ad4b4e64414d70460a37055a15bf3cbd0a718e2d00d0785d581398e0cd",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/final-back.png",
+    "sha256": "bb04696d9d7a38df132a35370b1f6e688e7cce18b28c95ea22fe833e84be274a",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/final-bang.png",
+    "sha256": "73ff81fc732072179a83bf2c73fb515096cd255a5fc188356a45f881d4db9ad0",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/final-frame.png",
+    "sha256": "b6565c83683892f8dfd34a42a09efc8941c3584d498a9dc81f496dd101ebe7f1",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/final-front.png",
+    "sha256": "d31c1eb835a03399e445780d9097da724d74c720b88e4a232f00f82a5465e084",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/final-side-detail.png",
+    "sha256": "549ab71d3747fa950abf549a0546a12da8b990bbef47d49d9a4528ecbcd78753",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/final-side.png",
+    "sha256": "4ef00b048d440f9228d7b12e3479141106b30e5803186330a699172bab83d7cc",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/style-back.png",
+    "sha256": "1b4fc0012e4c807b7db3dd10bfc490973c96b1c1a2dc8f118f958729533acc4e",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/style-front-small.png",
+    "sha256": "04d1b97bfc7449be9d7fd4f71b2f40f74436751c9f532cc55b269c30290129ae",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-final/style-front.png",
+    "sha256": "4da3c99229dee35db086318350c926cc06495852bcb7bcbdef408c686bdcc18d",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/bang-a.png",
+    "sha256": "1613414fd12242c34be2d8cc8cb8ec2e6ee194d9ab1139cb4f6c8479d9dc69df",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/bang-b.png",
+    "sha256": "0322b152de47f24d5bf35bbd1ed9cfe33770bfb3b67290c2e4f296a1d0881138",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/bang-c.png",
+    "sha256": "31032a48ba020e2c09c4b5d4a89e3aefee62fffc6465237e1d60071739071cc8",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/bang-d.png",
+    "sha256": "9f12c3756c28466a949e2479308cc61303e67e8f111d49442d0bbabd523d3ec1",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/bang-e.png",
+    "sha256": "977de7be6a3e20a29dc3c8e38a1217b72741408ebdf565dc7f2116ee7bd9957a",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/brand-mark.png",
+    "sha256": "36a143d1c8d3eecf5be97e9813a5c36cbcf09be0f9280345ed6d60b1e972cc9b",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/color-0.png",
+    "sha256": "6028a318656b37d30a05d066b2b7e0958dc9c96b363b2b35f1ab5274e0844b93",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/color-1.png",
+    "sha256": "209b04dbbe653d85db06cd08098e244bd81ea67e36ad385c08cde3183ca26335",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/color-2.png",
+    "sha256": "c62df8494891ce7daa2b43faca1fb888b7a43567b4be8b1510d6d57dc5ea4064",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/color-3.png",
+    "sha256": "cfbc2b4184a8e4058b579b5edc38191ab70bbfb309eeb30cbbdde5e94cc73d04",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/color-4.png",
+    "sha256": "8fb22d17dc306f3706d8cea201a33ba2abea4c9499f8866d3745aa6dbbc7a82c",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/color-5.png",
+    "sha256": "9f30db01d5da5a904b3ec8dba2f39f6f16b09756891ce3775b322e3682db5d4b",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/color-6.png",
+    "sha256": "937bf58e06abbfed1aaf4c5f8ec2f82460dc179430172d003d99c7a65016414c",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/color-7.png",
+    "sha256": "abdcf48f3f7be7d427e870d458ee98e5b21dee6051600be459a33f260e7114d2",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/color-8.png",
+    "sha256": "031bd241910ed121e8ccbd87bc53b36e9354def4d09fcac72f80c815f479f4cd",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/current-back.png",
+    "sha256": "1ee4227bd13e8d5c75867430ddb1571824d4b1229795aefcaf33bc1ac9705a1d",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/current-front-small.png",
+    "sha256": "f6cbd6b9ad2c78cfea3ab7a5552be446c89506e83875016736048b302df98ab1",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/current-front.png",
+    "sha256": "1387c3a11cfc8acd611631d38b7d783a79190f932327f966c99c5612f13353bd",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/current-side.png",
+    "sha256": "f6981a21c7b1703db33d8207fa7e54a41b3e67c10ea73f65ae4bed2932d52217",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/face-front.png",
+    "sha256": "05dd1dbc2679b6014c086526c248fe6b39d033bf938a27919eae8f114d394ee8",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/icon-balance.png",
+    "sha256": "656939cf97514a1a8d4fbd0a328ea852a60e7b8eab24162d1ae9d58480ad7870",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/icon-bone.png",
+    "sha256": "f022bad8d8b6a0fd567f3965a74bed2bf6b34f1bcf6e92462e026427fb8b1d49",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/icon-face.png",
+    "sha256": "15b97ab3df857eabf7621d8d6685149c32f334a506d652545f0b0403a165518d",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/icon-skin.png",
+    "sha256": "83868e19bb504a4ed5ff5a88098b7067d7fbec1982f08b6894b0bb042d980b38",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/style-back.png",
+    "sha256": "4004593e11530cea7da09a1adab70d8ae9d9d3e8e13a1b305bde8eb5270d3071",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/style-front-small.png",
+    "sha256": "4ef8fb553f73ad45ed56efde684ce611d1d05b6852cc27ee841c280100be99ab",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/counseling-master/style-front.png",
+    "sha256": "bef98df7b9ad47e04fe23807846ea3369345d5e884c03494553de889293b2480",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/demo/fictional-current-display-v1.jpg",
+    "sha256": "99935a4ccc5945cf41963511db8b3f28f959005aa7786a7559ca1ca03e649ad5",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/demo/fictional-current-v1.png",
+    "sha256": "b4073b222803bfbd03d702b2640018cdf44b1d7e93f17a3188efff824dc56470",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/demo/fictional-result-display-v1.jpg",
+    "sha256": "54fae28418c49b46427125614097cdb71414fd885c2b47c3c2e47185a58f2dc7",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/demo/fictional-result-v1.png",
+    "sha256": "6a9b4200997657babd814b263ad4a18b1e92c182463e5ca919a810a05649ce6c",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/demo/fictional-target-display-v1.jpg",
+    "sha256": "a630e3d709ee22a6f8d23b526c9ace479604c9f237a41da0554da2c392a3ee24",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/demo/fictional-target-v1.png",
+    "sha256": "92324ab153afc38876e0cf78a07bfe2700501bf7f562612ca581a3c5e3aa70f2",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/design/official-ui-reference-original.jpg",
+    "sha256": "87fb255ebd6754880bb274364cd62953b8fea0d1c8a15e9dfb2224cbff0683c9",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/design/official-ui-reference.jpg",
+    "sha256": "57c31302023f06e4e0b00f8563dc95659470f93300734c5ca239543d7ed4a625",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/brand-mark.png",
+    "sha256": "6558be9bdcb0e38719645646dfbb7939b531e9ba36228010534846a85b4fcf6e",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/next-0.png",
+    "sha256": "2cc1882f7c9a2e6ff07b7fd53eff43689c2019e3fbd1545c7c57cca146327358",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/next-1.png",
+    "sha256": "ca2a465d3fe0d9911eda43e3960a80d0baf884189cefa19117f77182c73c3f90",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/next-2.png",
+    "sha256": "3952869caf45ae2aa88f21ac30adb972736993c1191376b90e454a017f0b4f83",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/next-3.png",
+    "sha256": "c8fc77fea8f2afe53e6c25fe209969aa3bfb3949ee552f5a2283395739f566f0",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/next-4.png",
+    "sha256": "3d10bb4a3d9d59197a120703cd6c721e0cc5bd12850a82637fbf3cd07b91ab40",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/next-5.png",
+    "sha256": "bfc2d2e74140dd959de0535fb91d283f70225ded22be4d87e5179a5e3d01063d",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/next-6.png",
+    "sha256": "19b2df8117f4bacbdd5daaa255fd704a68926f95b9be19b56d66cacf6f779a88",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/next-7.png",
+    "sha256": "6fbb3bfdff4d19012bfe32356fe1912cd67c1bce1335f5d6374f1466ac913a2d",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/next-8.png",
+    "sha256": "8f465e501165fb5d9dbb09ef94be8f667c4deaf2f56c24efdfa68414264db3d7",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/recipe-a.png",
+    "sha256": "624ca346f1cc1bbc7517c159a0b4ea0a330316fb88078fec75184d7daaf0399c",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/recipe-b.png",
+    "sha256": "54e912263f7f690dcf6c7788c3894ba465dc63c6a305d64442c18f2d620e989d",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/recipe-c.png",
+    "sha256": "7c282832ecd7c4e2eb6f260702fe912b6581b3a9813b2bdcaea9883a854da739",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/target-back-top.png",
+    "sha256": "c686b358aa878dcc13877f9cd954b557d4f2477dc16eba130aa45a1103d88e73",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/target-back.png",
+    "sha256": "9390f2012cca3e20e403589ecf1d93eb81fc0f58e35c699a9c72b37914f75719",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/target-front.png",
+    "sha256": "0674a3ee62ce5b8358ab9e5c9dd70202e869686b519c7249e7dfcd1df64d4d35",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/target-main.png",
+    "sha256": "7e2b8557619ce2fc5f8167696bcecf4e16f9af0a4a43af4d83970a117d784e79",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "public/pro-design-master/target-side.png",
+    "sha256": "041a2983a96c28c493fb58bcb292e09d050a4bd29b4da6aedd94a1d16d4edbe1",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "src/data/journey_sample_assets.json",
+    "sha256": "d514f933196c928fc352bb7d45bfd3977a98aaf67c780e492358e46e2256bda2",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  },
+  {
+    "path": "src/data/ui_reference_asset.json",
+    "sha256": "2a682153e720e86044fd2f36b46f5b7ce5417d749b64458e1067e455c9681c0c",
+    "reason": "Image redistribution rights unverified, or existing Sites deployment binding excluded."
+  }
+]

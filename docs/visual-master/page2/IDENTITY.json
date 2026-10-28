@@ -1,0 +1,147 @@
+{
+  "visualMasterId": "file_0000000039ec81fd894d833f5e3b914b",
+  "libraryFileId": "libfile_63c0ea11d5008191895e67325f19cf5d",
+  "originalSha256": "1a471e32cab61b20226406bc4872bd84fc3372912a495c311d24108cab96f670",
+  "crop": [
+    529,
+    0,
+    1129,
+    1024
+  ],
+  "canonicalSize": [
+    600,
+    1024
+  ],
+  "expectedGeometry": {
+    "TARGET": [
+      11,
+      97,
+      574,
+      187
+    ],
+    "COLOR_RECIPE": [
+      11,
+      291,
+      574,
+      348
+    ],
+    "NEXT_COLOR": [
+      11,
+      645,
+      574,
+      161
+    ],
+    "BOTTOM": [
+      11,
+      813,
+      574,
+      198
+    ]
+  },
+  "photographs": "MOCK crops from approved master; never generated patient images",
+  "functionalOverrides": "Page 2 v1.0: lower-left AFTERCARE; no prep/time cards; dynamic UNKNOWN values replace fabricated measurements",
+  "crops": {
+    "target-main": [
+      550,
+      125,
+      714,
+      277
+    ],
+    "target-front": [
+      723,
+      125,
+      781,
+      178
+    ],
+    "target-back-top": [
+      792,
+      125,
+      855,
+      205
+    ],
+    "target-side": [
+      723,
+      198,
+      781,
+      264
+    ],
+    "target-back": [
+      794,
+      210,
+      855,
+      264
+    ],
+    "recipe-a": [
+      555,
+      377,
+      642,
+      432
+    ],
+    "recipe-b": [
+      745,
+      377,
+      832,
+      432
+    ],
+    "recipe-c": [
+      940,
+      377,
+      1024,
+      432
+    ],
+    "next-0": [
+      552,
+      699,
+      602,
+      731
+    ],
+    "next-1": [
+      617,
+      699,
+      667,
+      731
+    ],
+    "next-2": [
+      681,
+      699,
+      731,
+      731
+    ],
+    "next-3": [
+      746,
+      699,
+      796,
+      731
+    ],
+    "next-4": [
+      811,
+      699,
+      861,
+      731
+    ],
+    "next-5": [
+      876,
+      699,
+      926,
+      731
+    ],
+    "next-6": [
+      940,
+      699,
+      990,
+      731
+    ],
+    "next-7": [
+      1005,
+      699,
+      1055,
+      731
+    ],
+    "next-8": [
+      1070,
+      699,
+      1120,
+      731
+    ]
+  }
+}

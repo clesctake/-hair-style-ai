@@ -1,0 +1,31 @@
+'use client';
+import {useEffect,useRef,useState,type PointerEvent} from 'react';
+import type {Journey,Lab,Photo} from '@/lib/journey';
+import {createToneBuffer,type ToneBuffer} from '@/lib/live-tone';
+import {personHairWeights,transferHairColor,counselingSampleMask,counselingPhotoSource} from '@/lib/counseling-color-preview';
+import {rasterizeHairMask,emptyHairMask,type MaskStroke} from '@/lib/hair-mask';
+import {counselingState,editCounseling} from '@/lib/counseling-session';
+
+export function CounselingHairPhoto({session,photo,src,target,mock=false,editable=false,onChange,onRendered,containHeight}:{session:Journey;photo?:Photo;src:string;target:Lab|null;mock?:boolean;editable?:boolean;onChange?:(j:Journey)=>void;onRendered?:(photo:Photo,source:'AI_ESTIMATE'|'STYLIST_CORRECTED'|'MOCK')=>void;containHeight?:number}){
+ const canvas=useRef<HTMLCanvasElement>(null),[buffer,setBuffer]=useState<ToneBuffer|null>(null),[mode,setMode]=useState<'view'|'add'|'erase'>('view'),[error,setError]=useState(''),[ready,setReady]=useState(false);
+ const stroke=useRef<{base:ReturnType<typeof emptyHairMask>;value:MaskStroke}|null>(null);
+ const confirmation=session.target.confirmedAdjustmentId,fullPreview=!editable&&photo&&target?counselingState(session).personColorPreviews?.findLast(item=>item.sourceCurrentPhotoId===photo.id&&item.targetConfirmationId===confirmation&&item.previewPhoto.name==='person-hair-color-original-resolution.png'&&JSON.stringify(session.target.color.value)===JSON.stringify(target))?.previewPhoto:null;
+ const resolvedSrc=photo?counselingPhotoSource(photo).dataUrl:src;
+ const id=photo?.id??'MOCK:'+src,mask=counselingState(session).personHairMasks?.[id];
+ const callback=useRef(onRendered);callback.current=onRendered;
+ useEffect(()=>{let dead=false;setReady(false);setBuffer(null);setError('');if(fullPreview){setReady(true);return;}const im=new Image();im.onload=()=>{if(dead)return;try{const scale=Math.min(1,512/Math.max(im.naturalWidth,im.naturalHeight)),el=document.createElement('canvas');el.width=Math.round(im.naturalWidth*scale);el.height=Math.round(im.naturalHeight*scale);const ctx=el.getContext('2d',{willReadFrequently:true});if(!ctx)throw new Error('画像を表示できません。');ctx.drawImage(im,0,0,el.width,el.height);setBuffer(createToneBuffer(ctx.getImageData(0,0,el.width,el.height).data,el.width,el.height));}catch(e){setError(String(e));}};im.onerror=()=>setError('本人写真を読み込めませんでした。');im.src=resolvedSrc;return()=>{dead=true;};},[resolvedSrc,fullPreview?.id]);
+ const signature=JSON.stringify([id,target,mask,session.diagnosisSession?.photoAnalysis?.activeRunId]);
+ useEffect(()=>{if(!buffer||!canvas.current)return;const frame=requestAnimationFrame(()=>{
+  const c=canvas.current;if(!c)return;const ctx=c.getContext('2d');if(!ctx)return;
+  const selection=mock?{weights:rasterizeHairMask(mask??counselingSampleMask(id),buffer.width,buffer.height),source:'MOCK' as const}:photo?personHairWeights(session,photo,buffer.width,buffer.height):{weights:new Uint8Array(buffer.width*buffer.height),source:null};
+  c.width=buffer.width;c.height=buffer.height;const out=ctx.createImageData(c.width,c.height);out.data.set(target?transferHairColor(buffer,target,selection.weights):buffer.original);ctx.putImageData(out,0,0);
+  c.dataset.maskSource=selection.source??'UNKNOWN';c.dataset.target=target?JSON.stringify(target):'NULL';setReady(true);
+  if(editable&&mode!=='view'){const tint=ctx.getImageData(0,0,c.width,c.height);for(let i=0;i<selection.weights.length;i++)if(selection.weights[i]){tint.data[i*4]=tint.data[i*4]*.7+190*.3;tint.data[i*4+1]=tint.data[i*4+1]*.7+150*.3;}ctx.putImageData(tint,0,0);}
+  if(photo&&target&&selection.source&&selection.weights.some(v=>v)&&mode==='view')callback.current?.({...photo,id:crypto.randomUUID(),name:'person-hair-color-preview.png',dataUrl:c.toDataURL('image/png'),width:c.width,height:c.height,original:undefined},selection.source);
+ });return()=>cancelAnimationFrame(frame);},[buffer,signature,editable,mode]);
+ function point(e:PointerEvent<HTMLDivElement>){const r=e.currentTarget.getBoundingClientRect();return {x:Math.max(0,Math.min(1,(e.clientX-r.left)/r.width)),y:Math.max(0,Math.min(1,(e.clientY-r.top)/r.height))};}
+ function begin(e:PointerEvent<HTMLDivElement>){if(!photo||mode==='view'||!onChange)return;e.preventDefault();e.currentTarget.setPointerCapture(e.pointerId);stroke.current={base:mask??emptyHairMask(id),value:{operation:mode,diameter:.06,points:[point(e)]}};emit();}
+ function emit(){if(!stroke.current||!onChange)return;onChange(editCounseling(session,{personHairMasks:{...counselingState(session).personHairMasks,[id]:{...stroke.current.base,origin:'manual',strokes:[...stroke.current.base.strokes,stroke.current.value]}}}));}
+ function move(e:PointerEvent<HTMLDivElement>){if(!stroke.current)return;const p=point(e),last=stroke.current.value.points.at(-1)!;if(Math.hypot(p.x-last.x,p.y-last.y)<.005)return;stroke.current.value={...stroke.current.value,points:[...stroke.current.value.points,p]};emit();}
+ return <div className={editable?'cf-person-live':'cf-hair-photo'}><div className="cf-canvas-frame" onPointerDown={begin} onPointerMove={move} onPointerUp={()=>{stroke.current=null;}} onPointerCancel={()=>{stroke.current=null;}} style={{touchAction:mode==='view'?'auto':'none',...((editable||containHeight)&&buffer?{aspectRatio:buffer.width/buffer.height,width:`min(100%, ${(containHeight??440)*buffer.width/buffer.height}px)`}: {})}}><img src={fullPreview?.dataUrl??resolvedSrc} alt={mock?'MOCK · マスターの表示例':'現在の本人写真'} hidden={!fullPreview&&ready&&Boolean(target)}/><canvas ref={canvas} hidden={Boolean(fullPreview)||!ready||!target} aria-label="本人の髪だけのカラー調整プレビュー"/></div>{editable&&<><p>{mock?'MOCK本人写真の手動髪範囲':'本人写真への軽量プレビュー'} · 髪型の画像生成ではありません。</p><div className="cf-person-tools"><button type="button" aria-pressed={mode==='view'} onClick={()=>setMode('view')}>髪色を見る</button><button type="button" aria-pressed={mode==='add'} onClick={()=>setMode('add')}>範囲を塗る</button><button type="button" aria-pressed={mode==='erase'} onClick={()=>setMode('erase')}>範囲を消す</button></div><small>{!mock&&canvas.current?.dataset.maskSource==='UNKNOWN'?'先にAI分析するか、髪の範囲を手で選んでください。':'顔・肌・背景が選択されていないか確認してください。'}</small></>}{error&&<p role="alert">{error}</p>}</div>;
+}
