@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "dev01-public-a-recovery-v1",
+  "sourceHead": "c67c3fc65ba1e5cf29b0cbd996dc86be95c3207b",
+  "scope": "Seven individually reviewed original helpers/tests only",
+  "completeApplication": false,
+  "originalDevelopmentHistoryIncluded": false,
+  "privateAssetsIncluded": false,
+  "files": [
+    {
+      "path": "scripts/verification-digest.mjs",
+      "bytes": 454,
+      "sha256": "f9f40350f41b1a5c5a0c4e3c49605c19a59d8bccfd38e9290fea0921c2dc1fb1"
+    },
+    {
+      "path": "src/lib/after-review-upload-gate.ts",
+      "bytes": 1199,
+      "sha256": "5bd7d3ab59397c3810d13ceb2329318c995a9115895555445c2d75b95fb8db6c"
+    },
+    {
+      "path": "src/lib/local-mock-simulation.ts",
+      "bytes": 4313,
+      "sha256": "14037b32b4bedde60e700ef2ed21f7f2ee4550219cb07f8f98b74fb433470225"
+    },
+    {
+      "path": "src/lib/local-simulation-scope.ts",
+      "bytes": 1144,
+      "sha256": "4058b7e2a2316a21699b25a03cfed41371595761bfd6441b7b18f2d12cfdb8d9"
+    },
+    {
+      "path": "src/lib/simulation-provenance.ts",
+      "bytes": 1682,
+      "sha256": "2b1259d4cdae6fafd7f6bdbbe71f445a6a84adbdae54957c3e70a0a4525bbf02"
+    },
+    {
+      "path": "tests/after-review-upload-gate.test.mjs",
+      "bytes": 4245,
+      "sha256": "b648f7b00afbdaff24298324390020133bd2daa85e9ca9b7bf12027f24c38389"
+    },
+    {
+      "path": "tests/verification-digest.test.mjs",
+      "bytes": 935,
+      "sha256": "35f40dc673d7eb9ffc252b57c12dea5e8412ae0f4ec70c65f5c1386351e0ec6a"
+    }
+  ]
+}
