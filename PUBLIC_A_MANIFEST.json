@@ -1,7 +1,7 @@
 {
   "schemaVersion": "dev01-public-a-recovery-v1",
-  "sourceHead": "c67c3fc65ba1e5cf29b0cbd996dc86be95c3207b",
-  "scope": "Seven individually reviewed original helpers/tests only",
+  "sourceHead": "3057a963d175837dbb8dafdcdf25253a95b85505",
+  "scope": "Eleven individually reviewed original helper/test files only",
   "completeApplication": false,
   "originalDevelopmentHistoryIncluded": false,
   "privateAssetsIncluded": false,
@@ -9,37 +9,68 @@
     {
       "path": "scripts/verification-digest.mjs",
       "bytes": 454,
-      "sha256": "f9f40350f41b1a5c5a0c4e3c49605c19a59d8bccfd38e9290fea0921c2dc1fb1"
+      "sha256": "f9f40350f41b1a5c5a0c4e3c49605c19a59d8bccfd38e9290fea0921c2dc1fb1",
+      "sourceHead": "c67c3fc65ba1e5cf29b0cbd996dc86be95c3207b"
     },
     {
       "path": "src/lib/after-review-upload-gate.ts",
       "bytes": 1199,
-      "sha256": "5bd7d3ab59397c3810d13ceb2329318c995a9115895555445c2d75b95fb8db6c"
+      "sha256": "5bd7d3ab59397c3810d13ceb2329318c995a9115895555445c2d75b95fb8db6c",
+      "sourceHead": "c67c3fc65ba1e5cf29b0cbd996dc86be95c3207b"
     },
     {
       "path": "src/lib/local-mock-simulation.ts",
       "bytes": 4313,
-      "sha256": "14037b32b4bedde60e700ef2ed21f7f2ee4550219cb07f8f98b74fb433470225"
+      "sha256": "14037b32b4bedde60e700ef2ed21f7f2ee4550219cb07f8f98b74fb433470225",
+      "sourceHead": "c67c3fc65ba1e5cf29b0cbd996dc86be95c3207b"
     },
     {
       "path": "src/lib/local-simulation-scope.ts",
       "bytes": 1144,
-      "sha256": "4058b7e2a2316a21699b25a03cfed41371595761bfd6441b7b18f2d12cfdb8d9"
+      "sha256": "4058b7e2a2316a21699b25a03cfed41371595761bfd6441b7b18f2d12cfdb8d9",
+      "sourceHead": "c67c3fc65ba1e5cf29b0cbd996dc86be95c3207b"
     },
     {
       "path": "src/lib/simulation-provenance.ts",
       "bytes": 1682,
-      "sha256": "2b1259d4cdae6fafd7f6bdbbe71f445a6a84adbdae54957c3e70a0a4525bbf02"
+      "sha256": "2b1259d4cdae6fafd7f6bdbbe71f445a6a84adbdae54957c3e70a0a4525bbf02",
+      "sourceHead": "c67c3fc65ba1e5cf29b0cbd996dc86be95c3207b"
+    },
+    {
+      "path": "src/lib/testing/memory-usage-store.ts",
+      "bytes": 17282,
+      "sha256": "ed965041e6600a8c9f32cc35533561f97644364eee46477fd5176943a78f50db",
+      "sourceHead": "3057a963d175837dbb8dafdcdf25253a95b85505"
+    },
+    {
+      "path": "src/lib/testing/sqlite-usage-store.ts",
+      "bytes": 11077,
+      "sha256": "644073461422ed2cda982030d2c2ef9a074e4f817e1d3cc3a9d39f56e9d4f1a1",
+      "sourceHead": "3057a963d175837dbb8dafdcdf25253a95b85505"
     },
     {
       "path": "tests/after-review-upload-gate.test.mjs",
       "bytes": 4245,
-      "sha256": "b648f7b00afbdaff24298324390020133bd2daa85e9ca9b7bf12027f24c38389"
+      "sha256": "b648f7b00afbdaff24298324390020133bd2daa85e9ca9b7bf12027f24c38389",
+      "sourceHead": "c67c3fc65ba1e5cf29b0cbd996dc86be95c3207b"
+    },
+    {
+      "path": "tests/auth-lifecycle-readiness.test.mjs",
+      "bytes": 6300,
+      "sha256": "5e4cae85efaf1da61d15b3c935716b34deaac194920b9eae8a719ebb3d1bd485",
+      "sourceHead": "3057a963d175837dbb8dafdcdf25253a95b85505"
+    },
+    {
+      "path": "tests/sqlite-usage-store.test.mjs",
+      "bytes": 12521,
+      "sha256": "601e188fde8c0a658340f8af16a5b3516a3832cfb114199d7b6b970584ca35ad",
+      "sourceHead": "3057a963d175837dbb8dafdcdf25253a95b85505"
     },
     {
       "path": "tests/verification-digest.test.mjs",
       "bytes": 935,
-      "sha256": "35f40dc673d7eb9ffc252b57c12dea5e8412ae0f4ec70c65f5c1386351e0ec6a"
+      "sha256": "35f40dc673d7eb9ffc252b57c12dea5e8412ae0f4ec70c65f5c1386351e0ec6a",
+      "sourceHead": "c67c3fc65ba1e5cf29b0cbd996dc86be95c3207b"
     }
   ]
 }
